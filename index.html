@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lớp học biên cương — Border Classroom</title>
+<style>
+  :root{--dark:#0E4D64;--teal:#2E7D8A;--gold:#E8A33D;--bg:#F4F7F8;--tx:#20323A;--mut:#5B6B70;--card:#fff;--bd:#dbe4e7;--gold-d:#9A6B12}
+  *{box-sizing:border-box}
+  body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;color:var(--tx);background:var(--bg);line-height:1.6}
+  header.nav{position:sticky;top:0;z-index:50;background:var(--dark);color:#fff;box-shadow:0 2px 10px rgba(0,0,0,.15)}
+  .nav-in{max-width:1100px;margin:0 auto;display:flex;align-items:center;gap:14px;padding:10px 18px;flex-wrap:wrap}
+  .brand{font-weight:800;font-size:18px;margin-right:auto;display:flex;flex-direction:column;line-height:1.1}
+  .brand small{font-weight:600;font-size:11px;color:var(--gold);letter-spacing:2px}
+  nav.menu{display:flex;flex-wrap:wrap;gap:2px}
+  nav.menu button{background:transparent;border:0;color:#dCE9ED;font:inherit;font-size:13.5px;padding:7px 11px;border-radius:7px;cursor:pointer}
+  nav.menu button:hover{background:rgba(255,255,255,.12);color:#fff}
+  nav.menu button.on{background:var(--gold);color:#3a2a06;font-weight:700}
+  .lang{display:flex;border:1px solid rgba(255,255,255,.35);border-radius:20px;overflow:hidden}
+  .lang button{background:transparent;border:0;color:#dCE9ED;font:inherit;font-size:12px;font-weight:700;padding:5px 12px;cursor:pointer}
+  .lang button.on{background:#fff;color:var(--dark)}
+  main{max-width:1100px;margin:0 auto;padding:26px 18px 60px}
+  .page{animation:fade .35s ease}@keyframes fade{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+  h1.title{font-size:30px;margin:0 0 6px;color:var(--dark)}
+  .kicker{display:inline-block;background:#E7EEF0;color:var(--dark);font-size:12px;font-weight:700;padding:4px 12px;border-radius:20px;margin-bottom:14px;letter-spacing:.4px}
+  .lead{font-size:16px;color:#33454c;max-width:760px}
+  section.blk{margin:26px 0}
+  section.blk h2{font-size:20px;color:var(--dark);margin:0 0 10px;display:flex;align-items:center;gap:10px}
+  section.blk h2::before{content:"";width:6px;height:20px;background:var(--gold);border-radius:3px;display:inline-block}
+  p{margin:0 0 12px}
+  .hero{background:linear-gradient(135deg,var(--dark),#12657f);color:#fff;border-radius:16px;padding:38px 30px}
+  .hero h1{font-size:34px;margin:0 0 4px}.hero .en{color:var(--gold);font-weight:800;letter-spacing:2px;font-size:16px;margin-bottom:14px}
+  .hero p{color:#d7e7ec;max-width:640px}
+  .btns{margin-top:18px;display:flex;gap:12px;flex-wrap:wrap}
+  .btn{border:0;font:inherit;font-weight:700;padding:11px 18px;border-radius:9px;cursor:pointer}
+  .btn.gold{background:var(--gold);color:#3a2a06}.btn.ghost{background:rgba(255,255,255,.14);color:#fff;border:1px solid rgba(255,255,255,.4)}
+  .kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:22px}
+  .kpi{background:var(--card);border:1px solid var(--bd);border-radius:12px;padding:16px;text-align:center}
+  .kpi .n{font-size:30px;font-weight:800;color:var(--dark)}.kpi .l{font-size:12.5px;color:var(--mut);margin-top:4px}
+  .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:14px}
+  .card{background:var(--card);border:1px solid var(--bd);border-radius:12px;padding:16px;overflow:hidden}
+  .card img{width:100%;border-radius:8px;margin-bottom:10px;display:block}
+  .card h3{margin:0 0 6px;font-size:15.5px;color:var(--dark)}.card p{font-size:14px;color:#3d4d54;margin:0}
+  .tag{display:inline-block;font-size:11px;font-weight:700;padding:3px 9px;border-radius:20px;margin-top:9px}
+  .tag.done{background:#e2f0e6;color:#1f6b39}.tag.doing{background:#fff2d9;color:var(--gold-d)}.tag.plan{background:#eef1f3;color:#516168}.tag.aux{background:#e7eef0;color:var(--dark)}
+  .tiers{display:flex;flex-direction:column;gap:10px}
+  .tier{background:var(--teal);color:#fff;border-radius:10px;padding:14px 16px;font-weight:700}.tier:last-child{background:var(--dark)}
+  .tier span{display:block;font-weight:500;font-size:13px;color:#e8f2f4;margin-top:3px}
+  .tl{position:relative;margin-left:8px;padding-left:24px;border-left:3px solid #d3dde0}
+  .tl .step{position:relative;margin-bottom:18px}
+  .tl .step::before{content:"";position:absolute;left:-33px;top:2px;width:16px;height:16px;border-radius:50%;background:var(--gold);border:3px solid #fff;box-shadow:0 0 0 2px var(--gold)}
+  .tl .step h3{margin:0 0 3px;font-size:16px;color:var(--dark)}.tl .step .when{font-size:12px;color:var(--mut);font-style:italic}.tl .step p{font-size:14px;margin:5px 0 0}
+  .gal{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px}
+  .ph{background:repeating-linear-gradient(45deg,#eef3f4,#eef3f4 10px,#e7eef0 10px,#e7eef0 20px);border:1px dashed #b9c8cd;border-radius:12px;padding:22px 16px;text-align:center;color:#5b6b70}
+  .ph.hasimg{background:#fff;border-style:solid;padding:0;overflow:hidden}
+  .ph img{width:100%;display:block}
+  .ph .inner{padding:16px}
+  .ph .ico{font-size:26px}.ph b{display:block;color:var(--dark);margin:6px 0 2px}.ph small{font-size:12px}
+  .ph a{color:var(--teal);font-weight:700;text-decoration:none;font-size:13px}
+  .info{background:var(--card);border:1px solid var(--bd);border-radius:12px;padding:18px}
+  .info .row{padding:8px 0;border-bottom:1px solid #eef2f3;font-size:14.5px}.info .row:last-child{border-bottom:0}.info .row b{color:var(--dark)}
+  .note{background:#fff7e9;border:1px solid #eac98a;border-radius:12px;padding:14px 16px;font-size:13.5px;color:#6b5417;margin-top:16px}
+  footer{background:var(--dark);color:#cfe0e5;font-size:13px;text-align:center;padding:20px;margin-top:30px}
+  @media(max-width:720px){.kpis{grid-template-columns:repeat(2,1fr)}.hero h1{font-size:26px}}
+</style>
+</head>
+<body>
+<header class="nav"><div class="nav-in">
+  <div class="brand">LỚP HỌC BIÊN CƯƠNG<small>BORDER CLASSROOM</small></div>
+  <nav class="menu" id="menu"></nav>
+  <div class="lang"><button data-l="vi" class="on">VI</button><button data-l="en">EN</button></div>
+</div></header>
+<main id="app"></main>
+<footer id="foot"></footer>
+
+<!-- Bản nhúng dự phòng: dùng khi mở trực tiếp từ máy. Khi đăng web, content.json sẽ được ưu tiên. -->
+<script id="seed" type="application/json">
+{"nav_vi":["Trang chủ","Bối cảnh","Đã làm","Mô hình","Lộ trình","Minh chứng","Liên hệ"],"nav_en":["Home","Context","Done","Model","Roadmap","Evidence","Contact"],"hero_title_vi":"Lớp học biên cương","hero_title_en":"Border Classroom","hero_en_label":"BORDER CLASSROOM","hero_desc_vi":"Mô hình giáo dục – giao lưu văn hóa – thông tin đối ngoại nhân dân tại khu vực biên giới. Từ những lớp tiếng Anh cộng đồng ở Cao Bằng, kể câu chuyện Việt Nam bằng trải nghiệm thật, con người thật.","hero_desc_en":"A model of education – cultural exchange – people-to-people external information in the border region. From free community English classes in Cao Bang, telling Vietnam’s story through real people.","kpis":[{"n":"07","l_vi":"lớp tiếng Anh cho trẻ em vùng biên","l_en":"English classes for border children"},{"n":"02","l_vi":"lớp tiếng Anh cho cán bộ cơ sở","l_en":"English classes for local officials"},{"n":"03","l_vi":"đơn vị phối hợp địa phương","l_en":"local partner organisations"},{"n":"2025–26","l_vi":"giai đoạn triển khai","l_en":"implementation period"}],"mission_vi":"Lấy giáo dục làm nền tảng, lấy con người làm trung tâm, lấy trải nghiệm thật làm chất liệu, lấy an toàn – trách nhiệm làm nguyên tắc, lấy giao lưu nhân dân làm phương thức.","mission_en":"Education as the foundation, people at the centre, real experience as the material, safety and responsibility as principles, people-to-people exchange as the method.","context":[{"h_vi":"Một nghịch lý ở vùng biên","h_en":"A paradox at the border","p_vi":"Cao Bằng là tỉnh biên giới phía Bắc, có Thác Bản Giốc, Công viên địa chất toàn cầu UNESCO và dòng khách quốc tế tăng. Nhưng trẻ em, thanh niên và cán bộ cơ sở còn thiếu môi trường thực hành ngoại ngữ và giao tiếp quốc tế trực tiếp.","p_en":"Cao Bang is a northern border province with Ban Gioc Waterfall, a UNESCO Geopark and growing international visitors — yet children, youth and officials lack an environment to practise foreign languages."},{"h_vi":"Thông tin đối ngoại bắt đầu từ cơ sở","h_en":"External information starts at the grassroots","p_vi":"Thông tin đối ngoại diễn ra trong từng cuộc gặp giữa người dân và khách quốc tế. “Lớp học biên cương” biến những điểm chạm đó thành kênh đối ngoại nhân dân.","p_en":"External information happens in every encounter between local people and international guests. “Border Classroom” turns these touchpoints into a people-to-people channel."}],"done_cards":[{"title_vi":"Trẻ em – Trung tâm Bảo trợ xã hội tỉnh","title_en":"Children – Provincial Social Protection Centre","body_vi":"04 lớp · 71 học viên · 35 tình nguyện viên (2025–2026), phối hợp Tỉnh Đoàn Cao Bằng.","body_en":"04 classes · 71 learners · 35 volunteers (2025–2026), with Cao Bang Youth Union.","tag_vi":"Đã làm","tag_en":"Done","image":""},{"title_vi":"Trẻ em – phường Nùng Trí Cao","title_en":"Children – Nung Tri Cao ward","body_vi":"03 lớp · 55 học viên · 15 tình nguyện viên (2026).","body_en":"03 classes · 55 learners · 15 volunteers (2026).","tag_vi":"Đã làm","tag_en":"Done","image":""},{"title_vi":"Cán bộ cơ sở – phường Thục Phán","title_en":"Officials – Thuc Phan ward","body_vi":"02 lớp tiếng Anh giao tiếp cho cán bộ; thực hành tại Phố đi bộ Kim Đồng.","body_en":"02 communication-English classes; practice at Kim Dong Walking Street.","tag_vi":"Đã làm","tag_en":"Done","image":""}],"done_note_vi":"Giáo viên và học liệu do Clever Junior đảm nhiệm; hoạt động được truyền thông ghi nhận và có văn bản phối hợp chính thức.","done_note_en":"Teachers and materials by Clever Junior; covered by local media and backed by formal cooperation documents.","tiers":[{"a_vi":"1 · Giáo dục cộng đồng","a_en":"1 · Community education","b_vi":"Dạy tiếng Anh miễn phí cho trẻ em và cán bộ.","b_en":"Free English for children and officials."},{"a_vi":"2 · Giao lưu văn hóa","a_en":"2 · Cultural exchange","b_vi":"Lớp học thành điểm chạm giao lưu quốc tế.","b_en":"Classrooms become exchange touchpoints."},{"a_vi":"3 · Thông tin đối ngoại nhân dân","a_en":"3 · People-to-people external information","b_vi":"Trẻ em, cán bộ thành “chủ thể kể chuyện”.","b_en":"Children and officials become storytellers."}],"model_cards":[{"title_vi":"Trạm dừng chân giáo dục","title_en":"Educational Stopover","body_vi":"Giao lưu ngắn hạn (2–3 giờ), an toàn, có kiểm soát.","body_en":"Short (2–3h), safe, controlled exchange.","tag_vi":"Đề xuất – định hướng","tag_en":"Proposed","tagclass":"plan"},{"title_vi":"Cơ chế an toàn 4 lớp","title_en":"4-layer safety","body_vi":"Sàng lọc · Quy tắc ứng xử · Tập huấn · Giám sát tại chỗ.","body_en":"Screening · Code of conduct · Training · Supervision.","tag_vi":"Một phần đã áp dụng","tag_en":"Partly applied","tagclass":"doing"},{"title_vi":"Quản lý yếu tố nước ngoài","title_en":"Managing the foreign element","body_vi":"Không dạy độc lập, không tiếp xúc riêng với trẻ em.","body_en":"No solo teaching or private contact with children.","tag_vi":"Đang áp dụng","tag_en":"Applied","tagclass":"doing"}],"roadmap":[{"when_vi":"Bước 1 · Quý tiếp theo","when_en":"Step 1","h_vi":"Chuẩn hóa mô hình","h_en":"Standardise the model","p_vi":"Khung bài giảng song ngữ, quy trình lớp học, quy tắc an toàn.","p_en":"Bilingual lesson framework, class procedures, safety code.","s_vi":"Đang làm","s_en":"In progress","sclass":"doing"},{"when_vi":"Bước 2","when_en":"Step 2","h_vi":"Sản xuất sản phẩm truyền thông song ngữ","h_en":"Bilingual media products","p_vi":"Video 3–5 phút, bản tin, microsite và mã QR minh chứng.","p_en":"3–5 min video, newsletters, microsite and evidence QR.","s_vi":"Đang làm","s_en":"In progress","sclass":"doing"},{"when_vi":"Bước 3","when_en":"Step 3","h_vi":"Hoàn thiện khung pháp lý & an toàn","h_en":"Legal & safety framework","p_vi":"Phối hợp Sở Ngoại vụ, Công an tỉnh.","p_en":"With Dept. of Foreign Affairs and Police.","s_vi":"Kế hoạch","s_en":"Planned","sclass":"plan"},{"when_vi":"Bước 4","when_en":"Step 4","h_vi":"Thí điểm Trạm dừng chân giáo dục","h_en":"Pilot the Educational Stopover","p_vi":"Thí điểm có kiểm soát tại 1–2 điểm trường.","p_en":"Controlled pilot at 1–2 school sites.","s_vi":"Kế hoạch","s_en":"Planned","sclass":"plan"},{"when_vi":"Bước 5","when_en":"Step 5","h_vi":"Đào tạo đội ngũ","h_en":"Train the team","p_vi":"Bộ tài liệu tập huấn giáo viên, tình nguyện viên.","p_en":"Training materials for teachers and volunteers.","s_vi":"Kế hoạch","s_en":"Planned","sclass":"plan"},{"when_vi":"Bước 6","when_en":"Step 6","h_vi":"Đo lường & báo cáo","h_en":"Measure & report","p_vi":"Chỉ số: số lớp, học viên, lượt tiếp cận, phản hồi quốc tế.","p_en":"Metrics: classes, learners, reach, feedback.","s_vi":"Kế hoạch","s_en":"Planned","sclass":"plan"},{"when_vi":"Bước 7 · Dài hạn","when_en":"Step 7","h_vi":"Nhân rộng có kiểm soát","h_en":"Controlled replication","p_vi":"Mở rộng khi đủ điều kiện an toàn và đồng thuận.","p_en":"Expand when safety and consensus conditions are met.","s_vi":"Định hướng","s_en":"Direction","sclass":"plan"}],"evidence_intro_vi":"Tổng hợp minh chứng bằng liên kết/QR. (Các ô là chỗ chờ – biên tập viên chèn link/ảnh thật.)","evidence_intro_en":"Evidence hub via links/QR. (Placeholders — insert real links/images.)","evidence":[{"icon":"▶","label_vi":"Video tổng quan (3–5’)","label_en":"Overview video","note_vi":"Song ngữ","note_en":"Bilingual","link":"","image":"","tag_vi":"Chấm chính","tag_en":"Primary","tagclass":"done"},{"icon":"🖼","label_vi":"Album ảnh lớp học","label_en":"Photo album","note_vi":"Ảnh trẻ em đã bảo vệ hình ảnh","note_en":"Children’s images protected","link":"","image":"","tag_vi":"Chấm chính","tag_en":"Primary","tagclass":"done"},{"icon":"📰","label_vi":"Tin/bài truyền thông","label_en":"Press coverage","note_vi":"Báo Cao Bằng, kênh Đoàn","note_en":"Cao Bang Newspaper","link":"","image":"","tag_vi":"Chấm chính","tag_en":"Primary","tagclass":"done"},{"icon":"🌐","label_vi":"Bản tóm tắt tiếng Anh","label_en":"English summary","note_vi":"Border Classroom","note_en":"Border Classroom","link":"","image":"","tag_vi":"Bổ trợ","tag_en":"Supporting","tagclass":"aux"}],"contact":[{"k_vi":"Đơn vị đề xuất","k_en":"Proposed by","v_vi":"Công ty TNHH Giáo dục và Đào tạo Clever Kids (Anh ngữ Clever Junior)","v_en":"Clever Kids Education & Training Co., Ltd"},{"k_vi":"Chủ nhiệm sáng kiến","k_en":"Author","v_vi":"Bà Vũ Kim Dung","v_en":"Ms. Vu Kim Dung"},{"k_vi":"Đơn vị phối hợp","k_en":"Partners","v_vi":"Tỉnh Đoàn Cao Bằng · Đoàn phường Nùng Trí Cao · UBND phường Thục Phán","v_en":"Cao Bang Youth Union · Nung Tri Cao · Thuc Phan"},{"k_vi":"Hạng mục dự thi","k_en":"Award category","v_vi":"Sáng kiến, sản phẩm có giá trị thông tin đối ngoại — Giải thưởng toàn quốc về TTĐN lần thứ XII, 2026","v_en":"Initiative of external-information value — 12th National External Information Award, 2026"}],"note_vi":"Phân định rõ phần đã triển khai và phần đề xuất/định hướng; tuân thủ bản quyền, quyền hình ảnh, bảo vệ trẻ em; không thương mại.","note_en":"Separate implemented work from proposals; comply with copyright, image rights, child protection; no commercial use.","foot_vi":"Sáng kiến “Lớp học biên cương - Border Classroom” · Clever Kids (Clever Junior) · Chủ nhiệm: Bà Vũ Kim Dung. Trung thực – không phóng đại – bảo vệ trẻ em.","foot_en":"“Border Classroom” · Clever Kids (Clever Junior) · Author: Ms. Vu Kim Dung. Honest – child protection – no commercial use."}
+</script>
+
+<script>
+let D={}, lang="vi", page=0;
+const app=document.getElementById("app"), menuEl=document.getElementById("menu"), footEl=document.getElementById("foot");
+function L(o,base){return o[base+"_"+lang]||o[base+"_vi"]||"";}
+function tag(cls,txt){return txt?`<span class="tag ${cls}">${txt}</span>`:"";}
+function boot(){
+  D=JSON.parse(document.getElementById("seed").textContent);           // fallback (mở local)
+  fetch("content.json").then(r=>r.ok?r.json():null).then(j=>{if(j){D=j;} render();}).catch(()=>render());
+  render();
+}
+function render(){
+  const nav=D["nav_"+lang]||D.nav_vi;
+  menuEl.innerHTML=nav.map((n,i)=>`<button class="${i===page?'on':''}" data-p="${i}">${n}</button>`).join("");
+  footEl.innerHTML=L(D,"foot");
+  document.documentElement.lang=lang;
+  app.innerHTML=`<div class="page">${PAGES[page]()}</div>`;
+  window.scrollTo({top:0,behavior:"smooth"});
+}
+const head=(kick,title)=>`<span class="kicker">${kick}</span><h1 class="title">${title}</h1>`;
+const PAGES=[
+ ()=>`<div class="hero"><div class="en">${D.hero_en_label||"BORDER CLASSROOM"}</div><h1>${L(D,"hero_title")}</h1><p>${L(D,"hero_desc")}</p>
+   <div class="btns"><button class="btn gold" data-p="4">${lang==="vi"?"Xem lộ trình":"See roadmap"}</button><button class="btn ghost" data-p="5">${lang==="vi"?"Thư viện minh chứng":"Evidence library"}</button></div></div>
+   <div class="kpis">${D.kpis.map(k=>`<div class="kpi"><div class="n">${k.n}</div><div class="l">${L(k,"l")}</div></div>`).join("")}</div>
+   <section class="blk"><h2>${lang==="vi"?"Một dòng sứ mệnh":"Our mission in one line"}</h2><p class="lead">${L(D,"mission")}</p></section>`,
+ ()=>head(lang==="vi"?"Vì sao là Cao Bằng":"Why Cao Bang",lang==="vi"?"Bối cảnh & câu chuyện":"Context & story")
+   +D.context.map(c=>`<section class="blk"><h2>${L(c,"h")}</h2><p class="lead">${L(c,"p")}</p></section>`).join(""),
+ ()=>head(lang==="vi"?"Kết quả thực tế 2025–2026":"Actual results 2025–2026",lang==="vi"?"Những việc đã làm":"What we have done")
+   +`<section class="blk"><div class="cards">${D.done_cards.map(c=>`<div class="card">${c.image?`<img src="${c.image}" alt="">`:""}<h3>${L(c,"title")}</h3><p>${L(c,"body")}</p>${tag("done",L(c,"tag"))}</div>`).join("")}</div></section>`
+   +`<section class="blk"><p class="lead">${L(D,"done_note")}</p></section>`,
+ ()=>head(lang==="vi"?"Cấu trúc & cơ chế":"Structure & safeguards",lang==="vi"?"Mô hình":"The model")
+   +`<section class="blk"><h2>${lang==="vi"?"Ba tầng giá trị":"Three value layers"}</h2><div class="tiers">${D.tiers.map(t=>`<div class="tier">${L(t,"a")}<span>${L(t,"b")}</span></div>`).join("")}</div></section>`
+   +`<section class="blk"><h2>${lang==="vi"?"Mô hình & an toàn":"Model & safety"}</h2><div class="cards">${D.model_cards.map(c=>`<div class="card"><h3>${L(c,"title")}</h3><p>${L(c,"body")}</p>${tag(c.tagclass||"plan",L(c,"tag"))}</div>`).join("")}</div></section>`,
+ ()=>head(lang==="vi"?"Kế hoạch hành động":"Action plan",lang==="vi"?"Lộ trình – Những việc sẽ làm":"Roadmap – what we will do")
+   +`<section class="blk"><div class="tl">${D.roadmap.map(s=>`<div class="step"><div class="when">${L(s,"when")}</div><h3>${L(s,"h")}</h3><p>${L(s,"p")} ${tag(s.sclass||"plan",L(s,"s"))}</p></div>`).join("")}</div></section>`,
+ ()=>head(lang==="vi"?"Sản phẩm số đính kèm hồ sơ":"Digital product",lang==="vi"?"Thư viện minh chứng":"Evidence library")
+   +`<section class="blk"><p class="lead">${L(D,"evidence_intro")}</p></section>`
+   +`<section class="blk"><div class="gal">${D.evidence.map(g=>{const inner=`<div class="ico">${g.icon||"📎"}</div><b>${L(g,"label")}</b><small>${L(g,"note")}</small>${g.link?`<div><a href="${g.link}" target="_blank" rel="noopener">${lang==="vi"?"Mở link":"Open"}</a></div>`:""}<div>${tag(g.tagclass||"done",L(g,"tag"))}</div>`;return g.image?`<div class="ph hasimg"><img src="${g.image}" alt=""><div class="inner">${inner}</div></div>`:`<div class="ph">${inner}</div>`;}).join("")}</div></section>`,
+ ()=>head(lang==="vi"?"Thông tin":"Information",lang==="vi"?"Liên hệ & đơn vị phối hợp":"Contact & partners")
+   +`<div class="info">${D.contact.map(r=>`<div class="row"><b>${L(r,"k")}:</b> ${L(r,"v")}</div>`).join("")}</div>`
+   +`<div class="note">${L(D,"note")}</div>`
+];
+document.addEventListener("click",e=>{
+  const p=e.target.closest("[data-p]"); if(p){page=+p.dataset.p;render();return;}
+  const l=e.target.closest("[data-l]"); if(l){lang=l.dataset.l;document.querySelectorAll(".lang button").forEach(b=>b.classList.toggle("on",b.dataset.l===lang));render();}
+});
+boot();
+</script>
+</body>
+</html>
