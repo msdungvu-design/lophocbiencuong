@@ -1,6 +1,6 @@
 {
-  "nav_vi": ["Trang chủ", "Bối cảnh", "Đã làm", "Mô hình", "Lộ trình", "Minh chứng", "Liên hệ"],
-  "nav_en": ["Home", "Context", "Done", "Model", "Roadmap", "Evidence", "Contact"],
+  "nav_vi": ["Trang chủ", "Bối cảnh", "Đã làm", "Mô hình", "Lộ trình", "Minh chứng", "Cảm nhận", "Liên hệ"],
+  "nav_en": ["Home", "Context", "Done", "Model", "Roadmap", "Evidence", "Voices", "Contact"],
 
   "hero_title_vi": "Lớp học biên cương",
   "hero_title_en": "Border Classroom",
@@ -93,6 +93,15 @@
     {"icon": "🌐", "label_vi": "Bản tóm tắt tiếng Anh", "label_en": "English summary", "note_vi": "Border Classroom – summary", "note_en": "Border Classroom – summary", "link": "", "image": "", "tag_vi": "Bổ trợ", "tag_en": "Supporting", "tagclass": "aux"},
     {"icon": "💬", "label_vi": "Thư/video giáo viên quốc tế", "label_en": "International teachers’ notes", "note_vi": "Giáo viên hợp pháp thuộc Clever Junior", "note_en": "Legally-permitted Clever Junior teachers", "link": "", "image": "", "tag_vi": "Bổ trợ", "tag_en": "Supporting", "tagclass": "aux"},
     {"icon": "📄", "label_vi": "Văn bản phối hợp & đồng thuận", "label_en": "Cooperation & consent documents", "note_vi": "Tỉnh Đoàn · Nùng Trí Cao · Thục Phán", "note_en": "Youth Union · Nung Tri Cao · Thuc Phan", "link": "", "image": "", "tag_vi": "Chấm chính", "tag_en": "Primary", "tagclass": "done"}
+  ],
+
+  "voices_intro_vi": "Những chia sẻ thật từ người trong cuộc của hai dự án. (Điền tên, vai trò, câu chia sẻ và ảnh thật; ảnh/câu nói của trẻ em cần có đồng ý của người giám hộ, ưu tiên tình nguyện viên và cán bộ.)",
+  "voices_intro_en": "Real voices from people involved in the two projects. (Fill in names, roles, quotes and real photos; children’s photos/quotes require guardian consent — prioritise volunteers and officials.)",
+  "voices": [
+    {"name": "……………………", "role_vi": "Bí thư Đoàn phường", "role_en": "Ward Youth Union Secretary", "quote_vi": "(Điền câu chia sẻ thật của anh/chị về ý nghĩa chương trình đối với địa phương.)", "quote_en": "(Insert a real quote about the program’s value to the locality.)", "image": ""},
+    {"name": "……………………", "role_vi": "Tình nguyện viên", "role_en": "Volunteer", "quote_vi": "(Điền câu chia sẻ thật về trải nghiệm khi tham gia lớp học.)", "quote_en": "(Insert a real quote about the volunteering experience.)", "image": ""},
+    {"name": "……………………", "role_vi": "Trợ giảng", "role_en": "Teaching assistant", "quote_vi": "(Điền câu chia sẻ thật về sự thay đổi của các em học viên.)", "quote_en": "(Insert a real quote about the learners’ progress.)", "image": ""},
+    {"name": "……………………", "role_vi": "Học viên (cán bộ phường Thục Phán)", "role_en": "Learner (Thuc Phan official)", "quote_vi": "(Điền câu chia sẻ thật về việc tiếng Anh hỗ trợ công việc và giao tiếp với khách quốc tế.)", "quote_en": "(Insert a real quote on how English helps work and communication with visitors.)", "image": ""}
   ],
 
   "contact": [
