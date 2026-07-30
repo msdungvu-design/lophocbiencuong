@@ -111,8 +111,8 @@
       "image": "a_thucphan_kyket.jpg"
     }
   ],
-  "done_note_vi": "Giáo viên và học liệu do Clever Junior đảm nhiệm; huy động đoàn viên, sinh viên ngoại ngữ làm trợ giảng, tình nguyện viên. Hoạt động được truyền thông địa phương ghi nhận (Báo Cao Bằng, kênh Đoàn) và có văn bản phối hợp chính thức với các đơn vị.",
-  "done_note_en": "Teachers and materials provided by Clever Junior; youth-union members and language students served as teaching assistants and volunteers. Activities were covered by local media (Cao Bang Newspaper, Youth Union channels) and backed by formal cooperation documents.",
+  "done_note_vi": "Giáo viên và học liệu do Clever Junior đảm nhiệm; đồng thời huy động đoàn viên, sinh viên ngoại ngữ tham gia hỗ trợ lớp học với vai trò trợ giảng, tình nguyện viên. Hoạt động được ghi nhận và lan tỏa qua nhiều kênh chính thức như Tỉnh Đoàn Cao Bằng, Trung ương Đoàn, Đài PT-TH Cao Bằng, Báo Cao Bằng và Báo Thanh Niên; qua đó góp phần đưa câu chuyện tiếng Anh cộng đồng tại Cao Bằng đến gần hơn với cộng đồng địa phương và bạn bè quốc tế.",
+  "done_note_en": "Teachers and learning materials were provided by Clever Junior; youth-union members and foreign-language students also supported the classes as teaching assistants and volunteers. The initiative was recognised and shared through official channels including Cao Bang Youth Union, the Central Youth Union, Cao Bang Radio and Television, Cao Bang Newspaper and Thanh Nien Newspaper, helping bring Cao Bang's community-English story closer to local communities and international friends.",
   "tiers": [
     {
       "a_vi": "1 · Giáo dục cộng đồng",
@@ -526,6 +526,48 @@
       "owner_en": "Coordination team",
       "result_vi": "Số lớp, số học viên, phản hồi",
       "result_en": "Classes, learners, feedback"
+    }
+  ],
+  "team": [
+    {
+      "name": "Giáo viên 1",
+      "role_vi": "Giáo viên",
+      "role_en": "Teacher"
+    },
+    {
+      "name": "Giáo viên 2",
+      "role_vi": "Giáo viên",
+      "role_en": "Teacher"
+    },
+    {
+      "name": "Giáo viên 3",
+      "role_vi": "Giáo viên",
+      "role_en": "Teacher"
+    },
+    {
+      "name": "Nguyễn Thảo Hiền",
+      "role_vi": "Tình nguyện viên",
+      "role_en": "Volunteer"
+    },
+    {
+      "name": "Trần Bảo Nam",
+      "role_vi": "Tình nguyện viên",
+      "role_en": "Volunteer"
+    },
+    {
+      "name": "Hoàng Thảo Hân",
+      "role_vi": "Tình nguyện viên",
+      "role_en": "Volunteer"
+    },
+    {
+      "name": "Triệu Ngọc Ánh",
+      "role_vi": "Tình nguyện viên",
+      "role_en": "Volunteer"
+    },
+    {
+      "name": "Vi Đàm Được",
+      "role_vi": "Tình nguyện viên",
+      "role_en": "Volunteer"
     }
   ]
 }
