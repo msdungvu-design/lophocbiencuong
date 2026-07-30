@@ -100,8 +100,12 @@
   "voices": [
     {"name": "……………………", "role_vi": "Bí thư Đoàn phường", "role_en": "Ward Youth Union Secretary", "quote_vi": "(Điền câu chia sẻ thật của anh/chị về ý nghĩa chương trình đối với địa phương.)", "quote_en": "(Insert a real quote about the program’s value to the locality.)", "image": ""},
     {"name": "……………………", "role_vi": "Tình nguyện viên", "role_en": "Volunteer", "quote_vi": "(Điền câu chia sẻ thật về trải nghiệm khi tham gia lớp học.)", "quote_en": "(Insert a real quote about the volunteering experience.)", "image": ""},
+    {"name": "……………………", "role_vi": "Tình nguyện viên", "role_en": "Volunteer", "quote_vi": "(Điền câu chia sẻ thật.)", "quote_en": "(Insert a real quote.)", "image": ""},
     {"name": "……………………", "role_vi": "Trợ giảng", "role_en": "Teaching assistant", "quote_vi": "(Điền câu chia sẻ thật về sự thay đổi của các em học viên.)", "quote_en": "(Insert a real quote about the learners’ progress.)", "image": ""},
-    {"name": "……………………", "role_vi": "Học viên (cán bộ phường Thục Phán)", "role_en": "Learner (Thuc Phan official)", "quote_vi": "(Điền câu chia sẻ thật về việc tiếng Anh hỗ trợ công việc và giao tiếp với khách quốc tế.)", "quote_en": "(Insert a real quote on how English helps work and communication with visitors.)", "image": ""}
+    {"name": "……………………", "role_vi": "Trợ giảng", "role_en": "Teaching assistant", "quote_vi": "(Điền câu chia sẻ thật.)", "quote_en": "(Insert a real quote.)", "image": ""},
+    {"name": "……………………", "role_vi": "Học viên (cán bộ phường Thục Phán)", "role_en": "Learner (Thuc Phan official)", "quote_vi": "(Điền câu chia sẻ thật về việc tiếng Anh hỗ trợ công việc và giao tiếp với khách quốc tế.)", "quote_en": "(Insert a real quote on how English helps work and visitor communication.)", "image": ""},
+    {"name": "……………………", "role_vi": "Học viên (cán bộ phường Thục Phán)", "role_en": "Learner (Thuc Phan official)", "quote_vi": "(Điền câu chia sẻ thật.)", "quote_en": "(Insert a real quote.)", "image": ""},
+    {"name": "……………………", "role_vi": "Giáo viên chương trình", "role_en": "Program teacher", "quote_vi": "(Điền câu chia sẻ thật về hành trình dạy học tại vùng biên.)", "quote_en": "(Insert a real quote about teaching in the border region.)", "image": ""}
   ],
 
   "contact": [
