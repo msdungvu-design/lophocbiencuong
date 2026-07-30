@@ -1,6 +1,6 @@
 {
-  "nav_vi": ["Trang chủ", "Bối cảnh", "Đã làm", "Mô hình", "Lộ trình", "Minh chứng", "Cảm nhận", "Liên hệ"],
-  "nav_en": ["Home", "Context", "Done", "Model", "Roadmap", "Evidence", "Voices", "Contact"],
+  "nav_vi": ["Trang chủ", "Bối cảnh", "Hành trình đã làm", "Mô hình", "Lộ trình", "Ghi nhận & Chia sẻ", "Liên hệ"],
+  "nav_en": ["Home", "Context", "Our journey", "Model", "Roadmap", "Recognition & Voices", "Contact"],
 
   "hero_title_vi": "Lớp học biên cương",
   "hero_title_en": "Border Classroom",
@@ -9,14 +9,20 @@
   "hero_desc_en": "A model of education – cultural exchange – people-to-people external information in the border region. From free community English classes in Cao Bang, telling Vietnam’s story through real people and real experiences.",
 
   "kpis": [
-    {"n": "07", "l_vi": "lớp tiếng Anh cho trẻ em vùng biên", "l_en": "English classes for border children"},
-    {"n": "02", "l_vi": "lớp tiếng Anh cho cán bộ cơ sở", "l_en": "English classes for local officials"},
-    {"n": "03", "l_vi": "đơn vị phối hợp địa phương", "l_en": "local partner organisations"},
-    {"n": "2025–26", "l_vi": "giai đoạn triển khai", "l_en": "implementation period"}
+    {"n": "09", "l_vi": "lớp học tiếng Anh cộng đồng", "l_en": "community English classes"},
+    {"n": "189", "l_vi": "học viên (trẻ em & cán bộ)", "l_en": "learners (children & officials)"},
+    {"n": "65", "l_vi": "tình nguyện viên, trợ giảng", "l_en": "volunteers & teaching assistants"},
+    {"n": "07", "l_vi": "tin/bài báo chí ghi nhận", "l_en": "press features"}
   ],
 
   "mission_vi": "Lấy giáo dục làm nền tảng, lấy con người làm trung tâm, lấy trải nghiệm thật làm chất liệu, lấy an toàn – trách nhiệm làm nguyên tắc, lấy giao lưu nhân dân làm phương thức để lan tỏa hình ảnh một Việt Nam hiếu học, thân thiện, chủ động hội nhập ngay từ vùng biên giới.",
   "mission_en": "Education as the foundation, people at the centre, real experience as the material, safety and responsibility as principles, people-to-people exchange as the method — to project the image of a Vietnam that is eager to learn, friendly and proactively integrating, right from its border region.",
+
+  "highlights": [
+    {"title_vi": "Từ Cao Bằng ra thế giới", "title_en": "From Cao Bang to the world", "desc_vi": "Kể câu chuyện Việt Nam bằng tiếng Anh ngay từ vùng biên giới, qua trải nghiệm thật.", "desc_en": "Telling Vietnam’s story in English right from the border, through real experience."},
+    {"title_vi": "Người dân là chủ thể kể chuyện", "title_en": "Local people as storytellers", "desc_vi": "Trẻ em và cán bộ cơ sở trở thành người giới thiệu quê hương, văn hóa, con người Việt Nam.", "desc_en": "Children and grassroots officials become ambassadors for their homeland and culture."},
+    {"title_vi": "Được báo chí ghi nhận", "title_en": "Recognised by the press", "desc_vi": "Báo Cao Bằng, Đài PT-TH Cao Bằng, Tỉnh Đoàn và Trung ương Đoàn đưa tin.", "desc_en": "Covered by provincial press, broadcasting and the Youth Union."}
+  ],
 
   "context": [
     {"h_vi": "Một nghịch lý ở vùng biên", "h_en": "A paradox at the border",
@@ -84,15 +90,21 @@
 
   "evidence_intro_vi": "Khu vực tổng hợp minh chứng bằng liên kết/QR để hội đồng và bạn bè quốc tế truy cập nhanh. (Các ô dưới đây là chỗ chờ – biên tập viên chèn link/ảnh thật trước khi nộp.)",
   "evidence_intro_en": "A hub gathering evidence via links/QR for the jury and international audiences. (The tiles below are placeholders — insert real links/images before submission.)",
-  "evidence": [
-    {"icon": "▶", "label_vi": "Video tổng quan (3–5’)", "label_en": "Overview video (3–5’)", "note_vi": "Song ngữ", "note_en": "Bilingual", "link": "", "image": "", "tag_vi": "Chấm chính", "tag_en": "Primary", "tagclass": "done"},
-    {"icon": "▶", "label_vi": "Video lớp trẻ em", "label_en": "Children’s class video", "note_vi": "", "note_en": "", "link": "", "image": "", "tag_vi": "Chấm chính", "tag_en": "Primary", "tagclass": "done"},
-    {"icon": "▶", "label_vi": "Video lớp cán bộ – Phố đi bộ Kim Đồng", "label_en": "Officials’ class – Kim Dong Street", "note_vi": "", "note_en": "", "link": "", "image": "", "tag_vi": "Chấm chính", "tag_en": "Primary", "tagclass": "done"},
-    {"icon": "🖼", "label_vi": "Album ảnh lớp học & lễ ký kết", "label_en": "Photo album & signings", "note_vi": "Ảnh trẻ em đã xử lý bảo vệ hình ảnh", "note_en": "Children’s images protected", "link": "", "image": "", "tag_vi": "Chấm chính", "tag_en": "Primary", "tagclass": "done"},
-    {"icon": "📰", "label_vi": "Tin/bài truyền thông", "label_en": "Press coverage", "note_vi": "Báo Cao Bằng, kênh Đoàn", "note_en": "Cao Bang Newspaper, Youth Union", "link": "", "image": "", "tag_vi": "Chấm chính", "tag_en": "Primary", "tagclass": "done"},
-    {"icon": "🌐", "label_vi": "Bản tóm tắt tiếng Anh", "label_en": "English summary", "note_vi": "Border Classroom – summary", "note_en": "Border Classroom – summary", "link": "", "image": "", "tag_vi": "Bổ trợ", "tag_en": "Supporting", "tagclass": "aux"},
-    {"icon": "💬", "label_vi": "Thư/video giáo viên quốc tế", "label_en": "International teachers’ notes", "note_vi": "Giáo viên hợp pháp thuộc Clever Junior", "note_en": "Legally-permitted Clever Junior teachers", "link": "", "image": "", "tag_vi": "Bổ trợ", "tag_en": "Supporting", "tagclass": "aux"},
-    {"icon": "📄", "label_vi": "Văn bản phối hợp & đồng thuận", "label_en": "Cooperation & consent documents", "note_vi": "Tỉnh Đoàn · Nùng Trí Cao · Thục Phán", "note_en": "Youth Union · Nung Tri Cao · Thuc Phan", "link": "", "image": "", "tag_vi": "Chấm chính", "tag_en": "Primary", "tagclass": "done"}
+  "media": [
+    {"icon": "▶", "label_vi": "Video tổng quan (3–5’)", "label_en": "Overview video (3–5’)", "note_vi": "Song ngữ · dán link YouTube", "note_en": "Bilingual · paste a YouTube link", "link": "", "image": ""},
+    {"icon": "▶", "label_vi": "Video lớp trẻ em", "label_en": "Children’s class video", "note_vi": "Dán link YouTube", "note_en": "Paste a YouTube link", "link": "", "image": ""},
+    {"icon": "▶", "label_vi": "Video lớp cán bộ – Phố đi bộ Kim Đồng", "label_en": "Officials’ class – Kim Dong Street", "note_vi": "Dán link YouTube", "note_en": "Paste a YouTube link", "link": "", "image": ""},
+    {"icon": "🖼", "label_vi": "Album ảnh lớp học & lễ ký kết", "label_en": "Photo album & signing ceremonies", "note_vi": "Ảnh trẻ em đã làm mờ mặt / có đồng ý", "note_en": "Children’s images blurred / consented", "link": "", "image": ""}
+  ],
+
+  "press": [
+    {"source": "Tỉnh Đoàn Cao Bằng", "title_vi": "Khởi động Dự án “Tiếng Anh cộng đồng” và ra mắt Câu lạc bộ Ngoại ngữ Thanh niên hội nhập", "title_en": "Launch of the Community English project & the Youth Integration Language Club", "url": "https://tinhdoan.caobang.gov.vn/index.php/hoat-dong-doan/khoi-dong-du-an-tieng-anh-cong-dong-va-ra-mat-cau-lac-bo-ngoai-ngu-thanh-nien-hoi-nhap-3301.html"},
+    {"source": "Báo Cao Bằng", "title_vi": "Khởi động Dự án “Tiếng Anh cộng đồng” năm 2026", "title_en": "Launch of the Community English project 2026", "url": "https://baocaobang.vn/khoi-dong-du-an-tieng-anh-cong-dong-nam-2026-3189396.html"},
+    {"source": "Báo Cao Bằng", "title_vi": "Khởi động Dự án “Tiếng Anh cộng đồng” tại Trung tâm Bảo trợ xã hội tỉnh", "title_en": "Community English project at the Provincial Social Protection Centre", "url": "https://baocaobang.vn/khoi-dong-du-an-tieng-anh-cong-dong-tai-trung-tam-bao-tro-xa-hoi-tinh-3177918.html"},
+    {"source": "Báo Cao Bằng", "title_vi": "Khai giảng 3 lớp tiếng Anh cộng đồng cho trẻ em có hoàn cảnh khó khăn tại phường Nùng Trí Cao", "title_en": "Opening 3 community English classes for disadvantaged children in Nung Tri Cao ward", "url": "https://baocaobang.vn/khai-giang-3-lop-tieng-anh-cong-dong-danh-cho-tre-em-co-hoan-canh-kho-khan-tren-dia-ban-phuong-nung--3189183.html"},
+    {"source": "Tỉnh Đoàn Cao Bằng", "title_vi": "Khởi động Dự án “Tiếng Anh cộng đồng”, tư vấn chăm sóc sức khỏe tâm thần cho thiếu nhi năm 2025", "title_en": "Community English project & child mental-health counselling, 2025", "url": "https://tinhdoan.caobang.gov.vn/index.php/tin-tuc/khoi-dong-du-an-tieng-anh-cong-dong-tu-van-cham-soc-suc-khoe-tam-than-cho-thieu-nhi-nam-2025-3082.html"},
+    {"source": "Đài PT-TH Cao Bằng", "title_vi": "Phường Thục Phán ký kết hợp tác đào tạo tiếng Anh cho cán bộ, công chức, viên chức", "title_en": "Thuc Phan ward signs an English-training cooperation for officials", "url": "http://caobangtv.gov.vn/xa-hoi/phuong-thuc-phan-ky-ket-hop-tac-dao-tao-tieng-anh-cho-can-bo-ccvc-1052374"},
+    {"source": "Trung ương Đoàn (Facebook)", "title_vi": "Cao Bằng khởi động Dự án “Tiếng Anh cộng đồng”, ra mắt Câu lạc bộ Ngoại ngữ Thanh niên", "title_en": "Cao Bang launches the Community English project & Youth Language Club", "url": "https://www.facebook.com/Trunguongdoan/posts/1345038791148069/"}
   ],
 
   "voices_intro_vi": "Những chia sẻ thật từ người trong cuộc của hai dự án. (Điền tên, vai trò, câu chia sẻ và ảnh thật; ảnh/câu nói của trẻ em cần có đồng ý của người giám hộ, ưu tiên tình nguyện viên và cán bộ.)",
@@ -111,12 +123,13 @@
   "contact": [
     {"k_vi": "Đơn vị đề xuất", "k_en": "Proposed by", "v_vi": "Công ty TNHH Giáo dục và Đào tạo Clever Kids (Anh ngữ Clever Junior)", "v_en": "Clever Kids Education & Training Co., Ltd (Clever Junior English)"},
     {"k_vi": "Chủ nhiệm sáng kiến", "k_en": "Author", "v_vi": "Bà Vũ Kim Dung", "v_en": "Ms. Vu Kim Dung"},
-    {"k_vi": "Đơn vị phối hợp", "k_en": "Partners", "v_vi": "Tỉnh Đoàn Cao Bằng · Đoàn phường Nùng Trí Cao · UBND phường Thục Phán", "v_en": "Cao Bang Youth Union · Nung Tri Cao ward Youth Union · Thuc Phan ward People’s Committee"},
+    {"k_vi": "Email liên hệ", "k_en": "Contact email", "v_vi": "ms.dungvu@gmail.com", "v_en": "ms.dungvu@gmail.com"},
+    {"k_vi": "Đơn vị phối hợp", "k_en": "Partners", "v_vi": "Tỉnh Đoàn Cao Bằng · UBND phường Thục Phán · Đoàn phường Nùng Trí Cao", "v_en": "Cao Bang Youth Union · Thuc Phan ward People’s Committee · Nung Tri Cao ward Youth Union"},
     {"k_vi": "Địa bàn", "k_en": "Location", "v_vi": "Tỉnh Cao Bằng", "v_en": "Cao Bang province, Vietnam"},
     {"k_vi": "Hạng mục dự thi", "k_en": "Award category", "v_vi": "Sáng kiến, sản phẩm có giá trị thông tin đối ngoại — Giải thưởng toàn quốc về TTĐN lần thứ XII, 2026", "v_en": "Initiative/product of external-information value — 12th National External Information Award, 2026"}
   ],
-  "note_vi": "Nguyên tắc trình bày: phân định rõ phần đã triển khai và phần đề xuất/định hướng; chỉ hợp tác với người nước ngoài hợp pháp; tuân thủ quy định bản quyền, quyền hình ảnh và bảo vệ trẻ em; không sử dụng cho mục đích thương mại.",
-  "note_en": "Presentation principle: clearly separate implemented work from proposals; cooperate only with lawfully-present foreigners; comply with copyright, image rights and child protection; no commercial use.",
+  "note_vi": "Nguyên tắc trình bày: phân định rõ phần đã triển khai và phần đề xuất/định hướng; chỉ hợp tác với người nước ngoài hợp pháp; tuân thủ quy định bản quyền, quyền hình ảnh và bảo vệ trẻ em; không sử dụng cho mục đích thương mại. Bản đầy đủ các văn bản phối hợp, đồng thuận và danh sách được nộp kèm hồ sơ cho Ban Tổ chức Giải thưởng.",
+  "note_en": "Presentation principle: clearly separate implemented work from proposals; cooperate only with lawfully-present foreigners; comply with copyright, image rights and child protection; no commercial use. Full cooperation/consent documents and name lists are submitted with the dossier to the Award Organising Committee.",
 
   "foot_vi": "Sáng kiến “Lớp học biên cương - Border Classroom” · Đơn vị đề xuất: Công ty TNHH Giáo dục và Đào tạo Clever Kids (Anh ngữ Clever Junior) · Chủ nhiệm: Bà Vũ Kim Dung. Trung thực – không phóng đại – bảo vệ trẻ em – không thương mại hóa hình ảnh trẻ em.",
   "foot_en": "Initiative “Border Classroom” · Proposed by Clever Kids Education Co., Ltd (Clever Junior English) · Author: Ms. Vu Kim Dung. Honest – no exaggeration – child protection – no commercial use of children’s images."
