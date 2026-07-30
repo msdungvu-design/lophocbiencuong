@@ -20,8 +20,10 @@
   "hero_title_vi": "Lớp học biên cương",
   "hero_title_en": "Border Classroom",
   "hero_en_label": "BORDER CLASSROOM",
-  "hero_desc_vi": "Mô hình giáo dục – giao lưu văn hóa – thông tin đối ngoại nhân dân tại khu vực biên giới. Từ những lớp tiếng Anh cộng đồng ở Cao Bằng, kể câu chuyện Việt Nam bằng trải nghiệm thật, con người thật.",
-  "hero_desc_en": "A model of education – cultural exchange – people-to-people external information in the border region. From free community English classes in Cao Bang, telling Vietnam’s story through real people and real experiences.",
+  "hero_desc_vi": "Biến lớp học vùng biên thành kênh đối ngoại nhân dân: trẻ em và cán bộ Cao Bằng kể chuyện Việt Nam bằng tiếng Anh, bằng trải nghiệm thật — thay cho thông điệp một chiều.",
+  "hero_desc_en": "Turning border classrooms into a people-to-people external-information channel: children and grassroots officials in Cao Bang tell Vietnam’s story in English, through real experience — not one-way messaging.",
+  "reach_vi": "Đã được Trung ương Đoàn, báo chí tỉnh Cao Bằng và Báo Thanh Niên ghi nhận. Nội dung song ngữ Việt – Anh, hướng tới cộng đồng và bạn bè quốc tế.",
+  "reach_en": "Recognised by the Central Youth Union, Cao Bang provincial press and Thanh Nien Newspaper. Bilingual Vietnamese–English content, reaching the community and international friends.",
   "kpis": [
     {
       "n": "09",
@@ -121,14 +123,14 @@
     {
       "a_vi": "2 · Giao lưu văn hóa",
       "a_en": "2 · Cultural exchange",
-      "b_vi": "Lớp học trở thành điểm chạm giao lưu văn hóa giữa cộng đồng địa phương với khách/người nước ngoài hợp pháp.",
-      "b_en": "Classrooms become cultural-exchange touchpoints between the local community and lawfully-present international guests."
+      "b_vi": "Từ mỗi điểm chạm đời thường — một lời chào, một câu chỉ đường, một câu giới thiệu quê hương bằng tiếng Anh — lớp học trở thành không gian giao lưu văn hóa giữa cộng đồng địa phương với khách/người nước ngoài hợp pháp.",
+      "b_en": "From everyday touchpoints — a greeting, directions, an introduction to one’s homeland in English — the classroom becomes a space for cultural exchange between the local community and lawful international guests."
     },
     {
       "a_vi": "3 · Thông tin đối ngoại nhân dân",
       "a_en": "3 · People-to-people external information",
-      "b_vi": "Trẻ em, cán bộ trở thành “chủ thể kể chuyện” về quê hương, văn hóa, con người Việt Nam bằng tiếng Anh.",
-      "b_en": "Children and officials become “storytellers” of their homeland, culture and people, in English."
+      "b_vi": "Những điểm chạm ấy trở thành kênh đối ngoại nhân dân dựa trên trải nghiệm thật: trẻ em, cán bộ là “chủ thể kể chuyện” về quê hương, văn hóa, con người Việt Nam bằng tiếng Anh — thay cho thông điệp một chiều.",
+      "b_en": "These touchpoints become a people-to-people external-information channel grounded in real experience: children and officials become “storytellers” of Vietnam’s homeland, culture and people in English — instead of one-way messaging."
     }
   ],
   "model_cards": [
