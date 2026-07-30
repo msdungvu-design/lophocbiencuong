@@ -12,7 +12,7 @@
     {"n": "09", "l_vi": "lớp học tiếng Anh cộng đồng", "l_en": "community English classes"},
     {"n": "189", "l_vi": "học viên (trẻ em & cán bộ)", "l_en": "learners (children & officials)"},
     {"n": "65", "l_vi": "tình nguyện viên, trợ giảng", "l_en": "volunteers & teaching assistants"},
-    {"n": "07", "l_vi": "tin/bài báo chí ghi nhận", "l_en": "press features"}
+    {"n": "03", "l_vi": "đơn vị phối hợp địa phương", "l_en": "local partner organisations"}
   ],
 
   "mission_vi": "Lấy giáo dục làm nền tảng, lấy con người làm trung tâm, lấy trải nghiệm thật làm chất liệu, lấy an toàn – trách nhiệm làm nguyên tắc, lấy giao lưu nhân dân làm phương thức để lan tỏa hình ảnh một Việt Nam hiếu học, thân thiện, chủ động hội nhập ngay từ vùng biên giới.",
@@ -37,15 +37,15 @@
     {"title_vi": "Trẻ em – Trung tâm Bảo trợ xã hội tỉnh", "title_en": "Children – Provincial Social Protection Centre",
      "body_vi": "04 lớp · 71 học viên · 35 tình nguyện viên (2025–2026), phối hợp Tỉnh Đoàn Cao Bằng.",
      "body_en": "04 classes · 71 learners · 35 volunteers (2025–2026), with Cao Bang Youth Union.",
-     "tag_vi": "Đã làm", "tag_en": "Done", "image": ""},
+     "tag_vi": "Đã làm", "tag_en": "Done", "image": "e_tnv_baotro_2025.jpg"},
     {"title_vi": "Trẻ em – phường Nùng Trí Cao", "title_en": "Children – Nung Tri Cao ward",
      "body_vi": "03 lớp · 80 học viên · 30 tình nguyện viên (2026), phối hợp Đoàn phường Nùng Trí Cao.",
      "body_en": "03 classes · 80 learners · 30 volunteers (2026), with the ward Youth Union.",
-     "tag_vi": "Đã làm", "tag_en": "Done", "image": ""},
+     "tag_vi": "Đã làm", "tag_en": "Done", "image": "f_nungtricao_2026.jpg"},
     {"title_vi": "Cán bộ cơ sở – phường Thục Phán", "title_en": "Officials – Thuc Phan ward",
      "body_vi": "02 lớp tiếng Anh giao tiếp cho cán bộ, công chức; thực hành thực tế tại Phố đi bộ Kim Đồng.",
      "body_en": "02 communication-English classes for officials; real practice at Kim Dong Walking Street.",
-     "tag_vi": "Đã làm", "tag_en": "Done", "image": ""}
+     "tag_vi": "Đã làm", "tag_en": "Done", "image": "a_thucphan_kyket.jpg"}
   ],
   "done_note_vi": "Giáo viên và học liệu do Clever Junior đảm nhiệm; huy động đoàn viên, sinh viên ngoại ngữ làm trợ giảng, tình nguyện viên. Hoạt động được truyền thông địa phương ghi nhận (Báo Cao Bằng, kênh Đoàn) và có văn bản phối hợp chính thức với các đơn vị.",
   "done_note_en": "Teachers and materials provided by Clever Junior; youth-union members and language students served as teaching assistants and volunteers. Activities were covered by local media (Cao Bang Newspaper, Youth Union channels) and backed by formal cooperation documents.",
@@ -100,11 +100,10 @@
   "press": [
     {"source": "Tỉnh Đoàn Cao Bằng", "title_vi": "Khởi động Dự án “Tiếng Anh cộng đồng” và ra mắt Câu lạc bộ Ngoại ngữ Thanh niên hội nhập", "title_en": "Launch of the Community English project & the Youth Integration Language Club", "url": "https://tinhdoan.caobang.gov.vn/index.php/hoat-dong-doan/khoi-dong-du-an-tieng-anh-cong-dong-va-ra-mat-cau-lac-bo-ngoai-ngu-thanh-nien-hoi-nhap-3301.html", "image": "d_ra_mat_clb.jpg"},
     {"source": "Báo Cao Bằng", "title_vi": "Khởi động Dự án “Tiếng Anh cộng đồng” năm 2026", "title_en": "Launch of the Community English project 2026", "url": "https://baocaobang.vn/khoi-dong-du-an-tieng-anh-cong-dong-nam-2026-3189396.html"},
-    {"source": "Báo Cao Bằng", "title_vi": "Khởi động Dự án “Tiếng Anh cộng đồng” tại Trung tâm Bảo trợ xã hội tỉnh", "title_en": "Community English project at the Provincial Social Protection Centre", "url": "https://baocaobang.vn/khoi-dong-du-an-tieng-anh-cong-dong-tai-trung-tam-bao-tro-xa-hoi-tinh-3177918.html"},
     {"source": "Báo Cao Bằng", "title_vi": "Khai giảng 3 lớp tiếng Anh cộng đồng cho trẻ em có hoàn cảnh khó khăn tại phường Nùng Trí Cao", "title_en": "Opening 3 community English classes for disadvantaged children in Nung Tri Cao ward", "url": "https://baocaobang.vn/khai-giang-3-lop-tieng-anh-cong-dong-danh-cho-tre-em-co-hoan-canh-kho-khan-tren-dia-ban-phuong-nung--3189183.html"},
     {"source": "Tỉnh Đoàn Cao Bằng", "title_vi": "Khởi động Dự án “Tiếng Anh cộng đồng”, tư vấn chăm sóc sức khỏe tâm thần cho thiếu nhi năm 2025", "title_en": "Community English project & child mental-health counselling, 2025", "url": "https://tinhdoan.caobang.gov.vn/index.php/tin-tuc/khoi-dong-du-an-tieng-anh-cong-dong-tu-van-cham-soc-suc-khoe-tam-than-cho-thieu-nhi-nam-2025-3082.html", "image": "b_tienganh_congdong.jpg"},
     {"source": "Đài PT-TH Cao Bằng", "title_vi": "Phường Thục Phán ký kết hợp tác đào tạo tiếng Anh cho cán bộ, công chức, viên chức", "title_en": "Thuc Phan ward signs an English-training cooperation for officials", "url": "http://caobangtv.gov.vn/xa-hoi/phuong-thuc-phan-ky-ket-hop-tac-dao-tao-tieng-anh-cho-can-bo-ccvc-1052374", "image": "a_thucphan_kyket.jpg"},
-    {"source": "Trung ương Đoàn (Facebook)", "title_vi": "Cao Bằng khởi động Dự án “Tiếng Anh cộng đồng”, ra mắt Câu lạc bộ Ngoại ngữ Thanh niên", "title_en": "Cao Bang launches the Community English project & Youth Language Club", "url": "https://www.facebook.com/Trunguongdoan/posts/1345038791148069/", "image": "d_ra_mat_clb.jpg"}
+    {"source": "Trung ương Đoàn (Facebook)", "title_vi": "Cao Bằng khởi động Dự án “Tiếng Anh cộng đồng”, ra mắt Câu lạc bộ Ngoại ngữ Thanh niên", "title_en": "Cao Bang launches the Community English project & Youth Language Club", "url": "https://www.facebook.com/Trunguongdoan/posts/1345038791148069/", "image": "g_baotro_2026.jpg"}
   ],
 
   "voices_intro_vi": "Những chia sẻ thật từ người trong cuộc của hai dự án. (Điền tên, vai trò, câu chia sẻ và ảnh thật; ảnh/câu nói của trẻ em cần có đồng ý của người giám hộ, ưu tiên tình nguyện viên và cán bộ.)",
