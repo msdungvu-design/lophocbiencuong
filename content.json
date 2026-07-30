@@ -135,8 +135,8 @@
     {
       "title_vi": "Trạm dừng chân giáo dục",
       "title_en": "Educational Stopover",
-      "body_vi": "Điểm giao lưu văn hóa ngắn (2–3 giờ), an toàn, có kiểm soát. Chỉ dành cho khách quốc tế nhập cảnh hợp pháp hoặc người nước ngoài có giấy phép hợp lệ, và chỉ triển khai sau khi hoàn thiện khung pháp lý.",
-      "body_en": "A short (2–3h), safe, controlled cultural-exchange point. Only for lawfully-entered international visitors or foreigners holding valid permits, and only after the legal framework is completed.",
+      "body_vi": "Điểm giao lưu văn hóa ngắn (2–3 giờ), an toàn, có kiểm soát. ĐÂY KHÔNG phải mô hình đưa người nước ngoài vào lớp dạy học, mà là điểm giao lưu văn hóa có giám sát; chỉ dành cho khách quốc tế nhập cảnh hợp pháp hoặc người nước ngoài có giấy phép hợp lệ, và chỉ triển khai sau khi hoàn thiện khung pháp lý.",
+      "body_en": "A short (2–3h), safe, controlled cultural-exchange point. This is NOT a model that brings foreigners in to teach; it is a supervised cultural exchange, only for lawfully-entered visitors or foreigners with valid permits, and only after the legal framework is completed.",
       "tag_vi": "Đề xuất – định hướng",
       "tag_en": "Proposed – direction",
       "tagclass": "plan"
@@ -443,5 +443,87 @@
   "note_vi": "Nguyên tắc trình bày: phân định rõ phần đã triển khai và phần đề xuất/định hướng; chỉ hợp tác với người nước ngoài hợp pháp; tuân thủ quy định bản quyền, quyền hình ảnh và bảo vệ trẻ em; không sử dụng cho mục đích thương mại. Bản đầy đủ các văn bản phối hợp, đồng thuận và danh sách được nộp kèm hồ sơ cho Ban Tổ chức Giải thưởng.",
   "note_en": "Presentation principle: clearly separate implemented work from proposals; cooperate only with lawfully-present foreigners; comply with copyright, image rights and child protection; no commercial use. Full cooperation/consent documents and name lists are submitted with the dossier to the Award Organising Committee.",
   "foot_vi": "Sáng kiến “Lớp học biên cương - Border Classroom” · Đơn vị đề xuất: Công ty TNHH Giáo dục và Đào tạo Clever Kids (Anh ngữ Clever Junior) · Chủ nhiệm: Bà Vũ Kim Dung. Trung thực – không phóng đại – bảo vệ trẻ em – không thương mại hóa hình ảnh trẻ em.",
-  "foot_en": "Initiative “Border Classroom” · Proposed by Clever Kids Education Co., Ltd (Clever Junior English) · Author: Ms. Vu Kim Dung. Honest – no exaggeration – child protection – no commercial use of children’s images."
+  "foot_en": "Initiative “Border Classroom” · Proposed by Clever Kids Education Co., Ltd (Clever Junior English) · Author: Ms. Vu Kim Dung. Honest – no exaggeration – child protection – no commercial use of children’s images.",
+  "model_intro_vi": "Mô hình “Lớp học biên cương – Border Classroom” được triển khai theo ba cấu phần:",
+  "model_intro_en": "The “Border Classroom” model runs on three components:",
+  "components": [
+    {
+      "t_vi": "Lớp tiếng Anh cộng đồng",
+      "t_en": "Community English classes",
+      "d_vi": "Tổ chức lớp tiếng Anh miễn phí cho trẻ em, cán bộ cơ sở và nhóm đối tượng địa phương có nhu cầu.",
+      "d_en": "Free English classes for children, grassroots officials and local groups in need.",
+      "status_vi": "Đã triển khai",
+      "status_en": "Implemented",
+      "sclass": "done"
+    },
+    {
+      "t_vi": "Kể chuyện quê hương bằng tiếng Anh",
+      "t_en": "Telling homeland stories in English",
+      "d_vi": "Hướng dẫn người học sử dụng tiếng Anh để giới thiệu quê hương, văn hóa, con người Cao Bằng.",
+      "d_en": "Guiding learners to use English to introduce Cao Bang’s homeland, culture and people.",
+      "status_vi": "Đang chuẩn hóa",
+      "status_en": "Being standardised",
+      "sclass": "doing"
+    },
+    {
+      "t_vi": "Điểm giao lưu văn hóa có kiểm soát",
+      "t_en": "Controlled cultural-exchange points",
+      "d_vi": "Từng bước hình thành các điểm giao lưu văn hóa ngắn, có kiểm soát, với khách quốc tế/người nước ngoài hợp pháp; chỉ thực hiện khi đủ điều kiện pháp lý và có giáo viên/cán bộ Việt Nam giám sát.",
+      "d_en": "Gradually forming short, controlled cultural-exchange points with lawful international guests; only when legal conditions are met and with Vietnamese teachers/officials supervising.",
+      "status_vi": "Định hướng",
+      "status_en": "Direction",
+      "sclass": "plan"
+    }
+  ],
+  "model_note_vi": "Mô hình không đưa người nước ngoài vào giảng dạy độc lập, không thu phí từ trẻ em và không thương mại hóa hình ảnh trẻ em.",
+  "model_note_en": "The model does not let foreigners teach independently, charges children nothing, and never commercialises children’s images.",
+  "how_vi": "Mỗi lớp do Trung tâm Anh ngữ Clever Junior phối hợp với địa phương tổ chức; giáo viên hợp pháp của Clever Junior trực tiếp giảng dạy cùng trợ giảng, tình nguyện viên; có cán bộ địa phương/giáo viên Việt Nam giám sát. Học viên là trẻ em có hoàn cảnh khó khăn và cán bộ cơ sở. Mỗi buổi kéo dài khoảng 60–90 phút; đầu ra gồm buổi học, ảnh/video minh chứng và các câu chuyện quê hương bằng tiếng Anh.",
+  "how_en": "Each class is organised by Clever Junior together with local partners; licensed Clever Junior teachers teach alongside assistants and volunteers, supervised by local officials/Vietnamese teachers. Learners are disadvantaged children and grassroots officials. Each session lasts ~60–90 minutes; outputs include the lesson, photo/video evidence and homeland stories in English.",
+  "process": [
+    {
+      "step": "1",
+      "task_vi": "Khảo sát nhu cầu địa phương",
+      "task_en": "Survey local needs",
+      "owner_vi": "Clever Junior + địa phương",
+      "owner_en": "Clever Junior + local partners",
+      "result_vi": "Danh sách lớp/đối tượng",
+      "result_en": "Class/beneficiary list"
+    },
+    {
+      "step": "2",
+      "task_vi": "Thiết kế giáo trình song ngữ",
+      "task_en": "Design bilingual curriculum",
+      "owner_vi": "Đội chuyên môn Clever Junior",
+      "owner_en": "Clever Junior team",
+      "result_vi": "Bộ bài học song ngữ",
+      "result_en": "Bilingual lesson set"
+    },
+    {
+      "step": "3",
+      "task_vi": "Tổ chức lớp học",
+      "task_en": "Run the class",
+      "owner_vi": "Giáo viên hợp pháp + trợ giảng, có giám sát địa phương",
+      "owner_en": "Licensed teacher + assistants, with local supervision",
+      "result_vi": "Buổi học + ảnh/minh chứng",
+      "result_en": "Lessons + photos/evidence"
+    },
+    {
+      "step": "4",
+      "task_vi": "Ghi nhận câu chuyện quê hương",
+      "task_en": "Capture homeland stories",
+      "owner_vi": "Học viên + bộ phận truyền thông",
+      "owner_en": "Learners + media",
+      "result_vi": "Video/bài viết song ngữ",
+      "result_en": "Bilingual videos/articles"
+    },
+    {
+      "step": "5",
+      "task_vi": "Đo lường & báo cáo",
+      "task_en": "Measure & report",
+      "owner_vi": "Ban điều phối",
+      "owner_en": "Coordination team",
+      "result_vi": "Số lớp, số học viên, phản hồi",
+      "result_en": "Classes, learners, feedback"
+    }
+  ]
 }
