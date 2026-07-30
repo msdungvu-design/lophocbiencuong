@@ -5,7 +5,6 @@
   "hero_title_vi": "Lớp học biên cương",
   "hero_title_en": "Border Classroom",
   "hero_en_label": "BORDER CLASSROOM",
-  "hero_en_label_vi": "BORDER CLASSROOM",
   "hero_desc_vi": "Mô hình giáo dục – giao lưu văn hóa – thông tin đối ngoại nhân dân tại khu vực biên giới. Từ những lớp tiếng Anh cộng đồng ở Cao Bằng, kể câu chuyện Việt Nam bằng trải nghiệm thật, con người thật.",
   "hero_desc_en": "A model of education – cultural exchange – people-to-people external information in the border region. From free community English classes in Cao Bang, telling Vietnam’s story through real people and real experiences.",
 
@@ -34,8 +33,8 @@
      "body_en": "04 classes · 71 learners · 35 volunteers (2025–2026), with Cao Bang Youth Union.",
      "tag_vi": "Đã làm", "tag_en": "Done", "image": ""},
     {"title_vi": "Trẻ em – phường Nùng Trí Cao", "title_en": "Children – Nung Tri Cao ward",
-     "body_vi": "03 lớp · 55 học viên · 15 tình nguyện viên (2026), phối hợp Đoàn phường Nùng Trí Cao.",
-     "body_en": "03 classes · 55 learners · 15 volunteers (2026), with the ward Youth Union.",
+     "body_vi": "03 lớp · 80 học viên · 30 tình nguyện viên (2026), phối hợp Đoàn phường Nùng Trí Cao.",
+     "body_en": "03 classes · 80 learners · 30 volunteers (2026), with the ward Youth Union.",
      "tag_vi": "Đã làm", "tag_en": "Done", "image": ""},
     {"title_vi": "Cán bộ cơ sở – phường Thục Phán", "title_en": "Officials – Thuc Phan ward",
      "body_vi": "02 lớp tiếng Anh giao tiếp cho cán bộ, công chức; thực hành thực tế tại Phố đi bộ Kim Đồng.",
@@ -47,39 +46,40 @@
 
   "tiers": [
     {"a_vi": "1 · Giáo dục cộng đồng", "a_en": "1 · Community education",
-     "b_vi": "Dạy tiếng Anh miễn phí, giao tiếp, trải nghiệm cho trẻ em và cán bộ.",
-     "b_en": "Free, communicative, experiential English for children and officials."},
+     "b_vi": "Dạy tiếng Anh miễn phí, giao tiếp, trải nghiệm cho trẻ em và cán bộ cơ sở.",
+     "b_en": "Free, communicative, experiential English for children and grassroots officials."},
     {"a_vi": "2 · Giao lưu văn hóa", "a_en": "2 · Cultural exchange",
-     "b_vi": "Lớp học trở thành điểm chạm giao lưu giữa cộng đồng địa phương và bạn bè quốc tế.",
-     "b_en": "Classrooms become exchange touchpoints between the local community and international friends."},
+     "b_vi": "Lớp học trở thành điểm chạm giao lưu văn hóa giữa cộng đồng địa phương với khách/người nước ngoài hợp pháp.",
+     "b_en": "Classrooms become cultural-exchange touchpoints between the local community and lawfully-present international guests."},
     {"a_vi": "3 · Thông tin đối ngoại nhân dân", "a_en": "3 · People-to-people external information",
-     "b_vi": "Trẻ em, cán bộ thành “chủ thể kể chuyện” về quê hương, văn hóa, con người Việt Nam.",
-     "b_en": "Children and officials become “storytellers” of their homeland, culture and people."}
+     "b_vi": "Trẻ em, cán bộ trở thành “chủ thể kể chuyện” về quê hương, văn hóa, con người Việt Nam bằng tiếng Anh.",
+     "b_en": "Children and officials become “storytellers” of their homeland, culture and people, in English."}
   ],
 
   "model_cards": [
     {"title_vi": "Trạm dừng chân giáo dục", "title_en": "Educational Stopover",
-     "body_vi": "Điểm giao lưu ngắn hạn (2–3 giờ), an toàn, có kiểm soát giữa cộng đồng và khách/giáo viên quốc tế phù hợp.",
-     "body_en": "Short (2–3h), safe, controlled exchange sessions between the community and suitable international guests/teachers.",
+     "body_vi": "Điểm giao lưu văn hóa ngắn (2–3 giờ), an toàn, có kiểm soát. Chỉ dành cho khách quốc tế nhập cảnh hợp pháp hoặc người nước ngoài có giấy phép hợp lệ, và chỉ triển khai sau khi hoàn thiện khung pháp lý.",
+     "body_en": "A short (2–3h), safe, controlled cultural-exchange point. Only for lawfully-entered international visitors or foreigners holding valid permits, and only after the legal framework is completed.",
      "tag_vi": "Đề xuất – định hướng", "tag_en": "Proposed – direction", "tagclass": "plan"},
     {"title_vi": "Cơ chế an toàn 4 lớp", "title_en": "4-layer safety mechanism",
      "body_vi": "Sàng lọc đầu vào · Bộ Quy tắc ứng xử bảo vệ trẻ em · Tập huấn trước khi tham gia · Giám sát tại chỗ.",
      "body_en": "Screening · Child-protection code of conduct · Pre-activity training · On-site supervision.",
      "tag_vi": "Một phần đã áp dụng", "tag_en": "Partly applied", "tagclass": "doing"},
-    {"title_vi": "Quản lý yếu tố nước ngoài", "title_en": "Managing the foreign element",
-     "body_vi": "Không để người nước ngoài dạy độc lập hay tiếp xúc riêng với trẻ em; hoạt động trong không gian mở, có người phụ trách.",
-     "body_en": "Foreigners never teach alone or meet children privately; activities occur in open spaces with a responsible supervisor.",
-     "tag_vi": "Đang áp dụng", "tag_en": "Applied", "tagclass": "doing"}
+    {"title_vi": "Quản lý yếu tố nước ngoài – chỉ người hợp pháp", "title_en": "Foreign element – lawful persons only",
+     "body_vi": "Chỉ mời khách du lịch nhập cảnh hợp pháp tham gia giao lưu văn hóa (không giảng dạy, không nhận thù lao), hoặc người nước ngoài có giấy phép lao động/cư trú hợp lệ tại địa phương. Việc giảng dạy do giáo viên hợp pháp đảm nhiệm; không để người nước ngoài dạy độc lập hay tiếp xúc riêng với trẻ em.",
+     "body_en": "Only lawfully-entered tourists joining short cultural exchange (no teaching, no payment), or foreigners holding valid work/residence permits locally. Teaching is done by legally-permitted teachers; foreigners never teach alone or meet children privately.",
+     "tag_vi": "Nguyên tắc bắt buộc", "tag_en": "Mandatory principle", "tagclass": "doing"}
   ],
 
   "roadmap": [
-    {"when_vi": "Bước 1 · Quý tiếp theo", "when_en": "Step 1 · Next quarter", "h_vi": "Chuẩn hóa mô hình", "h_en": "Standardise the model", "p_vi": "Hoàn thiện khung bài giảng song ngữ, quy trình lớp học và bộ quy tắc an toàn trẻ em.", "p_en": "Finalise the bilingual lesson framework, class procedures and child-safety code.", "s_vi": "Đang làm", "s_en": "In progress", "sclass": "doing"},
-    {"when_vi": "Bước 2", "when_en": "Step 2", "h_vi": "Sản xuất sản phẩm truyền thông song ngữ", "h_en": "Produce bilingual media products", "p_vi": "Video 3–5 phút, bản tin, microsite này và mã QR minh chứng để tăng lan tỏa trong nước và quốc tế.", "p_en": "A 3–5 min video, newsletters, this microsite and evidence QR codes to boost domestic and international reach.", "s_vi": "Đang làm", "s_en": "In progress", "sclass": "doing"},
-    {"when_vi": "Bước 3", "when_en": "Step 3", "h_vi": "Hoàn thiện khung pháp lý & an toàn", "h_en": "Complete the legal & safety framework", "p_vi": "Phối hợp Sở Ngoại vụ, Công an tỉnh xây dựng quy trình xác minh, đăng ký hoạt động có yếu tố nước ngoài.", "p_en": "Work with the Dept. of Foreign Affairs and Provincial Police on verification and registration for foreign-related activities.", "s_vi": "Kế hoạch", "s_en": "Planned", "sclass": "plan"},
-    {"when_vi": "Bước 4", "when_en": "Step 4", "h_vi": "Thí điểm “Trạm dừng chân giáo dục”", "h_en": "Pilot the “Educational Stopover”", "p_vi": "Thí điểm có kiểm soát tại 1–2 điểm trường trên tuyến du lịch Cao Bằng.", "p_en": "A controlled pilot at 1–2 school sites along Cao Bang tourist routes.", "s_vi": "Kế hoạch", "s_en": "Planned", "sclass": "plan"},
-    {"when_vi": "Bước 5", "when_en": "Step 5", "h_vi": "Đào tạo đội ngũ", "h_en": "Train the team", "p_vi": "Bộ tài liệu tập huấn cho giáo viên, tình nguyện viên; quy chuẩn ứng xử và truyền thông.", "p_en": "Training materials for teachers and volunteers; conduct and communication standards.", "s_vi": "Kế hoạch", "s_en": "Planned", "sclass": "plan"},
-    {"when_vi": "Bước 6", "when_en": "Step 6", "h_vi": "Đo lường & báo cáo", "h_en": "Measure & report", "p_vi": "Chỉ số: số lớp, số học viên, lượt tiếp cận truyền thông, phản hồi quốc tế; báo cáo định kỳ.", "p_en": "Metrics: classes, learners, media reach, international feedback; periodic reporting.", "s_vi": "Kế hoạch", "s_en": "Planned", "sclass": "plan"},
-    {"when_vi": "Bước 7 · Dài hạn", "when_en": "Step 7 · Long term", "h_vi": "Nhân rộng có kiểm soát", "h_en": "Controlled replication", "p_vi": "Mở rộng sang địa bàn biên giới tương đồng khi đủ điều kiện: đồng thuận địa phương, an toàn trẻ em, quản lý yếu tố nước ngoài.", "p_en": "Expand to comparable border areas once conditions are met: local consensus, child safety, foreign-element management.", "s_vi": "Định hướng", "s_en": "Direction", "sclass": "plan"}
+    {"when_vi": "PHẦN A · Chủ động làm ngay — Bước 1 (2025–2026)", "when_en": "PART A · Do now — Step 1", "h_vi": "Chuẩn hóa mô hình & giáo trình", "h_en": "Standardise the model & curriculum", "p_vi": "Hoàn thiện khung bài giảng song ngữ theo chủ đề “giới thiệu Cao Bằng”, giáo án mẫu, bộ quy tắc an toàn trẻ em và các biểu mẫu đồng ý. Sản phẩm: bộ giáo trình + bộ quy tắc + biểu mẫu.", "p_en": "Finalise the bilingual lesson framework on “introducing Cao Bang”, sample lesson plans, the child-safety code and consent forms. Output: curriculum + code of conduct + forms.", "s_vi": "Đang làm", "s_en": "In progress", "sclass": "doing"},
+    {"when_vi": "PHẦN A · Bước 2", "when_en": "PART A · Step 2", "h_vi": "Sản phẩm truyền thông song ngữ & số hóa minh chứng", "h_en": "Bilingual media & digitised evidence", "p_vi": "Video 3–5 phút, website/microsite này, mã QR minh chứng và bản tóm tắt tiếng Anh. Sản phẩm: website + video + bộ QR.", "p_en": "A 3–5 min video, this website/microsite, evidence QR codes and an English summary. Output: website + video + QR set.", "s_vi": "Đang làm", "s_en": "In progress", "sclass": "doing"},
+    {"when_vi": "PHẦN A · Bước 3 (2026)", "when_en": "PART A · Step 3", "h_vi": "Duy trì & mở rộng lớp học hiện có", "h_en": "Maintain & expand existing classes", "p_vi": "Tăng số lớp cho trẻ em và cán bộ trên các địa bàn đã phối hợp; bổ sung nội dung “kể chuyện quê hương bằng tiếng Anh”. Chỉ số: số lớp, số học viên.", "p_en": "Increase classes for children and officials in existing partner areas; add “telling my homeland’s story in English”. Metrics: number of classes and learners.", "s_vi": "Kế hoạch gần", "s_en": "Near-term", "sclass": "doing"},
+    {"when_vi": "PHẦN A · Bước 4 (2026)", "when_en": "PART A · Step 4", "h_vi": "Ghi nhận giao lưu với khách quốc tế tại không gian công cộng", "h_en": "Record exchange with visitors in public space", "p_vi": "Tại Phố đi bộ Kim Đồng: khảo sát, phỏng vấn ngắn, thu thập cảm nhận của khách du lịch nhập cảnh hợp pháp — chỉ giao lưu văn hóa tự nhiên, KHÔNG tổ chức dạy học. Chỉ số: số lượt, số phản hồi.", "p_en": "At Kim Dong Walking Street: surveys, short interviews and impressions from lawfully-entered visitors — natural cultural exchange only, NOT organised teaching. Metrics: interactions, responses.", "s_vi": "Kế hoạch gần", "s_en": "Near-term", "sclass": "doing"},
+    {"when_vi": "PHẦN B · Kiến nghị — chưa thực hiện ngay", "when_en": "PART B · Proposal — not yet implemented", "h_vi": "Kiến nghị khung pháp lý cho hoạt động có yếu tố nước ngoài", "h_en": "Propose a legal framework for foreign-related activities", "p_vi": "Đơn vị KIẾN NGHỊ và xin hướng dẫn của Sở Ngoại vụ, Công an tỉnh và chính quyền địa phương về quy trình xác minh nhân thân, đăng ký/thông báo hoạt động. Đây là ĐỀ XUẤT, phụ thuộc phê duyệt của cơ quan có thẩm quyền — chưa thể triển khai ngay.", "p_en": "The unit PROPOSES and seeks guidance from the Dept. of Foreign Affairs, Provincial Police and local authorities on identity verification and activity registration/notification. This is a PROPOSAL, subject to the competent authorities’ approval — not implementable immediately.", "s_vi": "Kiến nghị – chưa thực hiện", "s_en": "Proposal – pending", "sclass": "plan"},
+    {"when_vi": "PHẦN B · Sau khi có khung pháp lý", "when_en": "PART B · After legal framework", "h_vi": "Thí điểm “Trạm dừng chân giáo dục” có kiểm soát", "h_en": "Pilot the controlled “Educational Stopover”", "p_vi": "Chỉ mời khách du lịch quốc tế nhập cảnh hợp pháp tham gia giao lưu văn hóa ngắn (không giảng dạy, không thù lao) hoặc người nước ngoài có giấy phép hợp lệ; luôn có giáo viên Việt Nam/cán bộ giám sát. Chỉ triển khai khi đủ điều kiện pháp lý.", "p_en": "Only lawfully-entered tourists for short cultural exchange (no teaching, no payment) or foreigners with valid permits; always supervised by Vietnamese teachers/officials. Only when legal conditions are met.", "s_vi": "Phụ thuộc pháp lý", "s_en": "Legally dependent", "sclass": "plan"},
+    {"when_vi": "PHẦN C · Định hướng", "when_en": "PART C · Direction", "h_vi": "Đào tạo đội ngũ & chuẩn hóa vận hành", "h_en": "Train the team & standardise operations", "p_vi": "Bộ tài liệu tập huấn cho giáo viên, tình nguyện viên; quy chuẩn ứng xử và truyền thông; hình thành đội ngũ nòng cốt.", "p_en": "Training materials for teachers and volunteers; conduct and communication standards; a core team.", "s_vi": "Định hướng", "s_en": "Direction", "sclass": "plan"},
+    {"when_vi": "PHẦN C · Định hướng dài hạn", "when_en": "PART C · Long term", "h_vi": "Đo lường, báo cáo & nhân rộng có kiểm soát", "h_en": "Measure, report & replicate with control", "p_vi": "Bộ chỉ số (số lớp, học viên, lượt tiếp cận, phản hồi quốc tế); nhân rộng sang địa bàn tương đồng khi đủ đồng thuận địa phương, an toàn trẻ em và quản lý yếu tố nước ngoài.", "p_en": "A metric set (classes, learners, reach, international feedback); replicate to comparable areas once local consensus, child safety and foreign-element management are ensured.", "s_vi": "Định hướng", "s_en": "Direction", "sclass": "plan"}
   ],
 
   "evidence_intro_vi": "Khu vực tổng hợp minh chứng bằng liên kết/QR để hội đồng và bạn bè quốc tế truy cập nhanh. (Các ô dưới đây là chỗ chờ – biên tập viên chèn link/ảnh thật trước khi nộp.)",
@@ -91,7 +91,7 @@
     {"icon": "🖼", "label_vi": "Album ảnh lớp học & lễ ký kết", "label_en": "Photo album & signings", "note_vi": "Ảnh trẻ em đã xử lý bảo vệ hình ảnh", "note_en": "Children’s images protected", "link": "", "image": "", "tag_vi": "Chấm chính", "tag_en": "Primary", "tagclass": "done"},
     {"icon": "📰", "label_vi": "Tin/bài truyền thông", "label_en": "Press coverage", "note_vi": "Báo Cao Bằng, kênh Đoàn", "note_en": "Cao Bang Newspaper, Youth Union", "link": "", "image": "", "tag_vi": "Chấm chính", "tag_en": "Primary", "tagclass": "done"},
     {"icon": "🌐", "label_vi": "Bản tóm tắt tiếng Anh", "label_en": "English summary", "note_vi": "Border Classroom – summary", "note_en": "Border Classroom – summary", "link": "", "image": "", "tag_vi": "Bổ trợ", "tag_en": "Supporting", "tagclass": "aux"},
-    {"icon": "💬", "label_vi": "Thư/video giáo viên quốc tế", "label_en": "International teachers’ notes", "note_vi": "Vova, Mariel, Janet, Bodzi… (nếu có)", "note_en": "Vova, Mariel, Janet, Bodzi… (if any)", "link": "", "image": "", "tag_vi": "Bổ trợ", "tag_en": "Supporting", "tagclass": "aux"},
+    {"icon": "💬", "label_vi": "Thư/video giáo viên quốc tế", "label_en": "International teachers’ notes", "note_vi": "Giáo viên hợp pháp thuộc Clever Junior", "note_en": "Legally-permitted Clever Junior teachers", "link": "", "image": "", "tag_vi": "Bổ trợ", "tag_en": "Supporting", "tagclass": "aux"},
     {"icon": "📄", "label_vi": "Văn bản phối hợp & đồng thuận", "label_en": "Cooperation & consent documents", "note_vi": "Tỉnh Đoàn · Nùng Trí Cao · Thục Phán", "note_en": "Youth Union · Nung Tri Cao · Thuc Phan", "link": "", "image": "", "tag_vi": "Chấm chính", "tag_en": "Primary", "tagclass": "done"}
   ],
 
@@ -102,8 +102,8 @@
     {"k_vi": "Địa bàn", "k_en": "Location", "v_vi": "Tỉnh Cao Bằng", "v_en": "Cao Bang province, Vietnam"},
     {"k_vi": "Hạng mục dự thi", "k_en": "Award category", "v_vi": "Sáng kiến, sản phẩm có giá trị thông tin đối ngoại — Giải thưởng toàn quốc về TTĐN lần thứ XII, 2026", "v_en": "Initiative/product of external-information value — 12th National External Information Award, 2026"}
   ],
-  "note_vi": "Nguyên tắc trình bày: phân định rõ phần đã triển khai và phần đề xuất/định hướng; tuân thủ quy định bản quyền, quyền hình ảnh và bảo vệ trẻ em; không sử dụng cho mục đích thương mại.",
-  "note_en": "Presentation principle: clearly separate implemented work from proposed/future directions; comply with copyright, image rights and child protection; no commercial use.",
+  "note_vi": "Nguyên tắc trình bày: phân định rõ phần đã triển khai và phần đề xuất/định hướng; chỉ hợp tác với người nước ngoài hợp pháp; tuân thủ quy định bản quyền, quyền hình ảnh và bảo vệ trẻ em; không sử dụng cho mục đích thương mại.",
+  "note_en": "Presentation principle: clearly separate implemented work from proposals; cooperate only with lawfully-present foreigners; comply with copyright, image rights and child protection; no commercial use.",
 
   "foot_vi": "Sáng kiến “Lớp học biên cương - Border Classroom” · Đơn vị đề xuất: Công ty TNHH Giáo dục và Đào tạo Clever Kids (Anh ngữ Clever Junior) · Chủ nhiệm: Bà Vũ Kim Dung. Trung thực – không phóng đại – bảo vệ trẻ em – không thương mại hóa hình ảnh trẻ em.",
   "foot_en": "Initiative “Border Classroom” · Proposed by Clever Kids Education Co., Ltd (Clever Junior English) · Author: Ms. Vu Kim Dung. Honest – no exaggeration – child protection – no commercial use of children’s images."
