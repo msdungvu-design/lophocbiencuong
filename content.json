@@ -146,8 +146,8 @@
     {
       "title_vi": "Cơ chế an toàn 4 lớp",
       "title_en": "4-layer safety mechanism",
-      "body_vi": "Sàng lọc đầu vào · Bộ Quy tắc ứng xử bảo vệ trẻ em · Tập huấn trước khi tham gia · Giám sát tại chỗ.",
-      "body_en": "Screening · Child-protection code of conduct · Pre-activity training · On-site supervision.",
+      "body_vi": "1. Sàng lọc đầu vào<br>2. Bộ Quy tắc ứng xử bảo vệ trẻ em<br>3. Tập huấn trước khi tham gia<br>4. Giám sát tại chỗ",
+      "body_en": "1. Screening at intake<br>2. Child-protection code of conduct<br>3. Pre-activity training<br>4. On-site supervision",
       "tag_vi": "Một phần đã áp dụng",
       "tag_en": "Partly applied",
       "tagclass": "doing"
@@ -336,8 +336,8 @@
       "image": "b_tienganh_congdong.jpg"
     }
   ],
-  "voices_intro_vi": "Những gương mặt dưới đây là một số đại diện tiêu biểu cho đội ngũ giáo viên, trợ giảng và tình nguyện viên đã đồng hành cùng sáng kiến, góp phần đưa các lớp học tiếng Anh cộng đồng đến gần hơn với trẻ em, cán bộ cơ sở và người dân địa phương. Danh sách cũng ghi nhận một số bạn bè quốc tế đang làm việc hợp pháp tại Việt Nam, sẵn sàng đồng hành khi mô hình điểm giao lưu văn hóa đủ điều kiện triển khai theo quy định pháp luật.",
-  "voices_intro_en": "The faces below are a few representatives of the teachers, teaching assistants and volunteers who have accompanied the initiative, helping bring free community English classes closer to children, grassroots officials and local people. The list also includes international friends working legally in Vietnam who are ready to take part once the cultural-exchange model meets the conditions for implementation under the law.",
+  "voices_intro_vi": "Những gương mặt dưới đây là một số đại diện tiêu biểu cho đội ngũ giáo viên, trợ giảng và tình nguyện viên đã đồng hành cùng sáng kiến, góp phần đưa các lớp học tiếng Anh cộng đồng đến gần hơn với trẻ em, cán bộ cơ sở và người dân địa phương.",
+  "voices_intro_en": "The faces below are a few representatives of the teachers, teaching assistants and volunteers who have accompanied the initiative, helping bring free community English classes closer to children, grassroots officials and local people.",
   "voices": [
     {
       "name": "Giáo viên 1",
@@ -401,22 +401,6 @@
       "role_en": "Volunteer",
       "quote_vi": "",
       "quote_en": "",
-      "image": ""
-    },
-    {
-      "name": "……………………",
-      "role_vi": "Giáo viên nước ngoài tại Hà Nội — sẵn sàng tham gia điểm trạm văn hóa",
-      "role_en": "Foreign teacher in Hanoi — ready to join the cultural stopover",
-      "quote_vi": "Tôi rất sẵn lòng tham gia chương trình giao lưu văn hóa này tại Cao Bằng khi được triển khai theo đúng khung pháp lý. Được giúp các em nhỏ luyện tiếng Anh và giới thiệu về đất nước mình chính là kiểu giao lưu tôi trân trọng.",
-      "quote_en": "I’d be glad to join this cultural-exchange programme in Cao Bang once it is set up under the proper legal framework. Helping children practise English and sharing about my own country is exactly the kind of exchange I value.",
-      "image": ""
-    },
-    {
-      "name": "……………………",
-      "role_vi": "Tình nguyện viên nước ngoài tại Hà Nội — sẵn sàng tham gia điểm trạm văn hóa",
-      "role_en": "Foreign volunteer in Hanoi — ready to join the cultural stopover",
-      "quote_vi": "Sống và làm việc ở Hà Nội, tôi rất thích ý tưởng một “điểm trạm giáo dục” có kiểm soát, nơi du khách và trẻ em địa phương có thể gặp gỡ, học hỏi lẫn nhau. Khi chương trình triển khai hợp pháp, hãy để tôi tham gia.",
-      "quote_en": "Living and working in Hanoi, I love the idea of a controlled “education stopover” where travellers and local children can meet and learn from each other. When it launches legally, count me in.",
       "image": ""
     }
   ],
