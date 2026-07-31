@@ -64,8 +64,8 @@
     {
       "title_vi": "Được báo chí ghi nhận",
       "title_en": "Recognised by the press",
-      "desc_vi": "Báo Cao Bằng, Đài PT-TH Cao Bằng, Tỉnh Đoàn và Trung ương Đoàn đưa tin.",
-      "desc_en": "Covered by provincial press, broadcasting and the Youth Union."
+      "desc_vi": "Báo Cao Bằng, Đài PT-TH Cao Bằng, Báo Thanh Niên, Tỉnh Đoàn và Trung ương Đoàn đưa tin.",
+      "desc_en": "Covered by Cao Bang Newspaper, provincial broadcasting, Thanh Nien Newspaper and the Youth Union."
     }
   ],
   "context": [
@@ -325,8 +325,8 @@
       "image": "b_tienganh_congdong.jpg"
     }
   ],
-  "voices_intro_vi": "Những chia sẻ thật từ người trong cuộc của hai dự án. (Điền tên, vai trò, câu chia sẻ và ảnh thật; ảnh/câu nói của trẻ em cần có đồng ý của người giám hộ, ưu tiên tình nguyện viên và cán bộ.)",
-  "voices_intro_en": "Real voices from people involved in the two projects. (Fill in names, roles, quotes and real photos; children’s photos/quotes require guardian consent — prioritise volunteers and officials.)",
+  "voices_intro_vi": "Những gương mặt dưới đây là một số đại diện tiêu biểu cho đội ngũ giáo viên, trợ giảng và tình nguyện viên đã đồng hành cùng sáng kiến, góp phần đưa các lớp học tiếng Anh cộng đồng đến gần hơn với trẻ em, cán bộ cơ sở và người dân địa phương. Trong đó có một số bạn bè quốc tế đang làm việc hợp pháp tại Hà Nội, sẵn sàng đồng hành khi mô hình “điểm trạm giao lưu văn hóa” được triển khai theo đúng khung pháp lý.",
+  "voices_intro_en": "The faces below are a few representatives of the teachers, teaching assistants and volunteers who have accompanied the initiative, helping bring free community English classes closer to children, grassroots officials and local people. Among them are international friends working legally in Hanoi who are ready to join once the “cultural-exchange stopover” model is implemented within the proper legal framework.",
   "voices": [
     {
       "name": "……………………",
@@ -390,6 +390,22 @@
       "role_en": "Program teacher",
       "quote_vi": "(Điền câu chia sẻ thật về hành trình dạy học tại vùng biên.)",
       "quote_en": "(Insert a real quote about teaching in the border region.)",
+      "image": ""
+    },
+    {
+      "name": "……………………",
+      "role_vi": "Giáo viên nước ngoài tại Hà Nội — sẵn sàng tham gia điểm trạm văn hóa",
+      "role_en": "Foreign teacher in Hanoi — ready to join the cultural stopover",
+      "quote_vi": "Tôi rất sẵn lòng tham gia chương trình giao lưu văn hóa này tại Cao Bằng khi được triển khai theo đúng khung pháp lý. Được giúp các em nhỏ luyện tiếng Anh và giới thiệu về đất nước mình chính là kiểu giao lưu tôi trân trọng.",
+      "quote_en": "I’d be glad to join this cultural-exchange programme in Cao Bang once it is set up under the proper legal framework. Helping children practise English and sharing about my own country is exactly the kind of exchange I value.",
+      "image": ""
+    },
+    {
+      "name": "……………………",
+      "role_vi": "Tình nguyện viên nước ngoài tại Hà Nội — sẵn sàng tham gia điểm trạm văn hóa",
+      "role_en": "Foreign volunteer in Hanoi — ready to join the cultural stopover",
+      "quote_vi": "Sống và làm việc ở Hà Nội, tôi rất thích ý tưởng một “điểm trạm giáo dục” có kiểm soát, nơi du khách và trẻ em địa phương có thể gặp gỡ, học hỏi lẫn nhau. Khi chương trình triển khai hợp pháp, hãy để tôi tham gia.",
+      "quote_en": "Living and working in Hanoi, I love the idea of a controlled “education stopover” where travellers and local children can meet and learn from each other. When it launches legally, count me in.",
       "image": ""
     }
   ],
