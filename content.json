@@ -111,8 +111,8 @@
       "image": "a_thucphan_kyket.jpg"
     }
   ],
-  "done_note_vi": "Giáo viên và học liệu do Clever Junior đảm nhiệm; đồng thời huy động đoàn viên, sinh viên ngoại ngữ tham gia hỗ trợ lớp học với vai trò trợ giảng, tình nguyện viên. Hoạt động được ghi nhận và lan tỏa qua nhiều kênh chính thức như Tỉnh Đoàn Cao Bằng, Trung ương Đoàn, Đài PT-TH Cao Bằng, Báo Cao Bằng và Báo Thanh Niên; qua đó góp phần đưa câu chuyện tiếng Anh cộng đồng tại Cao Bằng đến gần hơn với cộng đồng địa phương và bạn bè quốc tế.",
-  "done_note_en": "Teachers and learning materials were provided by Clever Junior; youth-union members and foreign-language students also supported the classes as teaching assistants and volunteers. The initiative was recognised and shared through official channels including Cao Bang Youth Union, the Central Youth Union, Cao Bang Radio and Television, Cao Bang Newspaper and Thanh Nien Newspaper, helping bring Cao Bang's community-English story closer to local communities and international friends.",
+  "done_note_vi": "Giáo viên và học liệu do Clever Junior đảm nhiệm; huy động đoàn viên, sinh viên ngoại ngữ làm trợ giảng, tình nguyện viên. Hoạt động được truyền thông địa phương ghi nhận (Báo Cao Bằng, kênh Đoàn) và có văn bản phối hợp chính thức với các đơn vị.",
+  "done_note_en": "Teachers and materials provided by Clever Junior; youth-union members and language students served as teaching assistants and volunteers. Activities were covered by local media (Cao Bang Newspaper, Youth Union channels) and backed by formal cooperation documents.",
   "tiers": [
     {
       "a_vi": "1 · Giáo dục cộng đồng",
@@ -164,89 +164,78 @@
   ],
   "roadmap": [
     {
-      "when_vi": "PHẦN A · Chủ động làm ngay — Bước 1 (2025–2026)",
-      "when_en": "PART A · Do now — Step 1",
+      "when_vi": "Bước 1 · 2025–2026",
+      "when_en": "Step 1 · 2025–2026",
       "h_vi": "Chuẩn hóa mô hình & giáo trình",
       "h_en": "Standardise the model & curriculum",
-      "p_vi": "Hoàn thiện khung bài giảng song ngữ theo chủ đề “giới thiệu Cao Bằng”, giáo án mẫu, bộ quy tắc an toàn trẻ em và các biểu mẫu đồng ý. Sản phẩm: bộ giáo trình + bộ quy tắc + biểu mẫu.",
-      "p_en": "Finalise the bilingual lesson framework on “introducing Cao Bang”, sample lesson plans, the child-safety code and consent forms. Output: curriculum + code of conduct + forms.",
+      "p_vi": "Hoàn thiện khung bài giảng song ngữ theo chủ đề “giới thiệu Cao Bằng”, quy trình lớp học và bộ quy tắc an toàn trẻ em.",
+      "p_en": "Finalise the bilingual lesson framework on “introducing Cao Bang”, class procedures and the child-safety code.",
       "s_vi": "Đang làm",
       "s_en": "In progress",
       "sclass": "doing"
     },
     {
-      "when_vi": "PHẦN A · Bước 2",
-      "when_en": "PART A · Step 2",
-      "h_vi": "Sản phẩm truyền thông song ngữ & số hóa minh chứng",
-      "h_en": "Bilingual media & digitised evidence",
-      "p_vi": "Video 3–5 phút, website/microsite này, mã QR minh chứng và bản tóm tắt tiếng Anh. Sản phẩm: website + video + bộ QR.",
-      "p_en": "A 3–5 min video, this website/microsite, evidence QR codes and an English summary. Output: website + video + QR set.",
+      "when_vi": "Bước 2",
+      "when_en": "Step 2",
+      "h_vi": "Sản phẩm truyền thông số",
+      "h_en": "Digital communication products",
+      "p_vi": "Đã hoàn thành website song ngữ và mã QR minh chứng; đang phát triển video ngắn 3–5 phút và bản tóm tắt tiếng Anh.",
+      "p_en": "Bilingual website and QR evidence completed; short 3–5 minute video and English summary in development.",
       "s_vi": "Đang làm",
       "s_en": "In progress",
       "sclass": "doing"
     },
     {
-      "when_vi": "PHẦN A · Bước 3 (2026)",
-      "when_en": "PART A · Step 3",
-      "h_vi": "Duy trì & mở rộng lớp học hiện có",
-      "h_en": "Maintain & expand existing classes",
-      "p_vi": "Tăng số lớp cho trẻ em và cán bộ trên các địa bàn đã phối hợp; bổ sung nội dung “kể chuyện quê hương bằng tiếng Anh”. Chỉ số: số lớp, số học viên.",
-      "p_en": "Increase classes for children and officials in existing partner areas; add “telling my homeland’s story in English”. Metrics: number of classes and learners.",
-      "s_vi": "Kế hoạch gần",
-      "s_en": "Near-term",
-      "sclass": "doing"
-    },
-    {
-      "when_vi": "PHẦN A · Bước 4 (2026)",
-      "when_en": "PART A · Step 4",
-      "h_vi": "Ghi nhận giao lưu với khách quốc tế tại không gian công cộng",
-      "h_en": "Record exchange with visitors in public space",
-      "p_vi": "Tại Phố đi bộ Kim Đồng: khảo sát, phỏng vấn ngắn, thu thập cảm nhận của khách du lịch nhập cảnh hợp pháp — chỉ giao lưu văn hóa tự nhiên, KHÔNG tổ chức dạy học. Chỉ số: số lượt, số phản hồi.",
-      "p_en": "At Kim Dong Walking Street: surveys, short interviews and impressions from lawfully-entered visitors — natural cultural exchange only, NOT organised teaching. Metrics: interactions, responses.",
-      "s_vi": "Kế hoạch gần",
-      "s_en": "Near-term",
-      "sclass": "doing"
-    },
-    {
-      "when_vi": "PHẦN B · Kiến nghị — chưa thực hiện ngay",
-      "when_en": "PART B · Proposal — not yet implemented",
-      "h_vi": "Kiến nghị khung pháp lý cho hoạt động có yếu tố nước ngoài",
-      "h_en": "Propose a legal framework for foreign-related activities",
-      "p_vi": "Đơn vị KIẾN NGHỊ và xin hướng dẫn của Sở Ngoại vụ, Công an tỉnh và chính quyền địa phương về quy trình xác minh nhân thân, đăng ký/thông báo hoạt động. Đây là ĐỀ XUẤT, phụ thuộc phê duyệt của cơ quan có thẩm quyền — chưa thể triển khai ngay.",
-      "p_en": "The unit PROPOSES and seeks guidance from the Dept. of Foreign Affairs, Provincial Police and local authorities on identity verification and activity registration/notification. This is a PROPOSAL, subject to the competent authorities’ approval — not implementable immediately.",
-      "s_vi": "Kiến nghị – chưa thực hiện",
-      "s_en": "Proposal – pending",
+      "when_vi": "Bước 3 · 2026",
+      "when_en": "Step 3 · 2026",
+      "h_vi": "Hoàn thiện khung pháp lý & an toàn",
+      "h_en": "Complete the legal & safety framework",
+      "p_vi": "Phối hợp Sở Ngoại vụ, Công an tỉnh xây dựng quy trình xác minh, đăng ký hoạt động có yếu tố nước ngoài (theo Nghị định 219/2025 & quy định tạm trú).",
+      "p_en": "Work with the Department of External Relations and provincial police to build verification and registration procedures for activities involving foreigners.",
+      "s_vi": "Kế hoạch",
+      "s_en": "Planned",
       "sclass": "plan"
     },
     {
-      "when_vi": "PHẦN B · Sau khi có khung pháp lý",
-      "when_en": "PART B · After legal framework",
+      "when_vi": "Bước 4 · 2026",
+      "when_en": "Step 4 · 2026",
       "h_vi": "Thí điểm “Trạm dừng chân giáo dục” có kiểm soát",
-      "h_en": "Pilot the controlled “Educational Stopover”",
-      "p_vi": "Chỉ mời khách du lịch quốc tế nhập cảnh hợp pháp tham gia giao lưu văn hóa ngắn (không giảng dạy, không thù lao) hoặc người nước ngoài có giấy phép hợp lệ; luôn có giáo viên Việt Nam/cán bộ giám sát. Chỉ triển khai khi đủ điều kiện pháp lý.",
-      "p_en": "Only lawfully-entered tourists for short cultural exchange (no teaching, no payment) or foreigners with valid permits; always supervised by Vietnamese teachers/officials. Only when legal conditions are met.",
-      "s_vi": "Phụ thuộc pháp lý",
-      "s_en": "Legally dependent",
+      "h_en": "Pilot the controlled “education stopover”",
+      "p_vi": "Thí điểm có kiểm soát tại 1–2 điểm trên tuyến du lịch Cao Bằng; chỉ mời người nước ngoài hợp pháp, có giám sát của giáo viên/cán bộ Việt Nam.",
+      "p_en": "Controlled pilot at 1–2 points on the Cao Bang tourist route; only lawful foreigners, supervised by Vietnamese teachers/officials.",
+      "s_vi": "Kế hoạch",
+      "s_en": "Planned",
       "sclass": "plan"
     },
     {
-      "when_vi": "PHẦN C · Định hướng",
-      "when_en": "PART C · Direction",
+      "when_vi": "Bước 5",
+      "when_en": "Step 5",
       "h_vi": "Đào tạo đội ngũ & chuẩn hóa vận hành",
       "h_en": "Train the team & standardise operations",
-      "p_vi": "Bộ tài liệu tập huấn cho giáo viên, tình nguyện viên; quy chuẩn ứng xử và truyền thông; hình thành đội ngũ nòng cốt.",
-      "p_en": "Training materials for teachers and volunteers; conduct and communication standards; a core team.",
-      "s_vi": "Định hướng",
-      "s_en": "Direction",
+      "p_vi": "Bộ tài liệu tập huấn cho giáo viên, tình nguyện viên; quy chuẩn ứng xử và truyền thông.",
+      "p_en": "Training materials for teachers and volunteers; standards for conduct and communication.",
+      "s_vi": "Kế hoạch",
+      "s_en": "Planned",
       "sclass": "plan"
     },
     {
-      "when_vi": "PHẦN C · Định hướng dài hạn",
-      "when_en": "PART C · Long term",
-      "h_vi": "Đo lường, báo cáo & nhân rộng có kiểm soát",
-      "h_en": "Measure, report & replicate with control",
-      "p_vi": "Bộ chỉ số (số lớp, học viên, lượt tiếp cận, phản hồi quốc tế); nhân rộng sang địa bàn tương đồng khi đủ đồng thuận địa phương, an toàn trẻ em và quản lý yếu tố nước ngoài.",
-      "p_en": "A metric set (classes, learners, reach, international feedback); replicate to comparable areas once local consensus, child safety and foreign-element management are ensured.",
+      "when_vi": "Bước 6",
+      "when_en": "Step 6",
+      "h_vi": "Đo lường & báo cáo",
+      "h_en": "Measure & report",
+      "p_vi": "Bộ chỉ số: số lớp, số học viên, lượt tiếp cận truyền thông, phản hồi quốc tế; báo cáo định kỳ.",
+      "p_en": "Metrics: classes, learners, media reach, international feedback; periodic reporting.",
+      "s_vi": "Kế hoạch",
+      "s_en": "Planned",
+      "sclass": "plan"
+    },
+    {
+      "when_vi": "Bước 7 · Dài hạn",
+      "when_en": "Step 7 · Long-term",
+      "h_vi": "Nhân rộng có kiểm soát",
+      "h_en": "Controlled replication",
+      "p_vi": "Mở rộng sang địa bàn biên giới tương đồng khi bảo đảm đồng thuận địa phương, an toàn trẻ em và quản lý yếu tố nước ngoài.",
+      "p_en": "Expand to comparable border areas once local consensus, child safety and management of foreign involvement are ensured.",
       "s_vi": "Định hướng",
       "s_en": "Direction",
       "sclass": "plan"
@@ -336,71 +325,71 @@
       "image": "b_tienganh_congdong.jpg"
     }
   ],
-  "voices_intro_vi": "Danh sách giáo viên, trợ giảng và tình nguyện viên trực tiếp tham gia hỗ trợ triển khai lớp học trong sáng kiến.",
-  "voices_intro_en": "Teachers, teaching assistants and volunteers directly involved in supporting the initiative.",
+  "voices_intro_vi": "Những chia sẻ thật từ người trong cuộc của hai dự án. (Điền tên, vai trò, câu chia sẻ và ảnh thật; ảnh/câu nói của trẻ em cần có đồng ý của người giám hộ, ưu tiên tình nguyện viên và cán bộ.)",
+  "voices_intro_en": "Real voices from people involved in the two projects. (Fill in names, roles, quotes and real photos; children’s photos/quotes require guardian consent — prioritise volunteers and officials.)",
   "voices": [
     {
-      "name": "Giáo viên 1",
+      "name": "……………………",
+      "role_vi": "Bí thư Đoàn phường",
+      "role_en": "Ward Youth Union Secretary",
+      "quote_vi": "(Điền câu chia sẻ thật của anh/chị về ý nghĩa chương trình đối với địa phương.)",
+      "quote_en": "(Insert a real quote about the program’s value to the locality.)",
+      "image": ""
+    },
+    {
+      "name": "……………………",
+      "role_vi": "Tình nguyện viên",
+      "role_en": "Volunteer",
+      "quote_vi": "(Điền câu chia sẻ thật về trải nghiệm khi tham gia lớp học.)",
+      "quote_en": "(Insert a real quote about the volunteering experience.)",
+      "image": ""
+    },
+    {
+      "name": "……………………",
+      "role_vi": "Tình nguyện viên",
+      "role_en": "Volunteer",
+      "quote_vi": "(Điền câu chia sẻ thật.)",
+      "quote_en": "(Insert a real quote.)",
+      "image": ""
+    },
+    {
+      "name": "……………………",
+      "role_vi": "Trợ giảng",
+      "role_en": "Teaching assistant",
+      "quote_vi": "(Điền câu chia sẻ thật về sự thay đổi của các em học viên.)",
+      "quote_en": "(Insert a real quote about the learners’ progress.)",
+      "image": ""
+    },
+    {
+      "name": "……………………",
+      "role_vi": "Trợ giảng",
+      "role_en": "Teaching assistant",
+      "quote_vi": "(Điền câu chia sẻ thật.)",
+      "quote_en": "(Insert a real quote.)",
+      "image": ""
+    },
+    {
+      "name": "……………………",
+      "role_vi": "Học viên (cán bộ phường Thục Phán)",
+      "role_en": "Learner (Thuc Phan official)",
+      "quote_vi": "(Điền câu chia sẻ thật về việc tiếng Anh hỗ trợ công việc và giao tiếp với khách quốc tế.)",
+      "quote_en": "(Insert a real quote on how English helps work and visitor communication.)",
+      "image": ""
+    },
+    {
+      "name": "……………………",
+      "role_vi": "Học viên (cán bộ phường Thục Phán)",
+      "role_en": "Learner (Thuc Phan official)",
+      "quote_vi": "(Điền câu chia sẻ thật.)",
+      "quote_en": "(Insert a real quote.)",
+      "image": ""
+    },
+    {
+      "name": "……………………",
       "role_vi": "Giáo viên chương trình",
       "role_en": "Program teacher",
-      "quote_vi": "",
-      "quote_en": "",
-      "image": ""
-    },
-    {
-      "name": "Giáo viên 2",
-      "role_vi": "Giáo viên chương trình",
-      "role_en": "Program teacher",
-      "quote_vi": "",
-      "quote_en": "",
-      "image": ""
-    },
-    {
-      "name": "Giáo viên 3",
-      "role_vi": "Giáo viên chương trình",
-      "role_en": "Program teacher",
-      "quote_vi": "",
-      "quote_en": "",
-      "image": ""
-    },
-    {
-      "name": "Nguyễn Thảo Hiền",
-      "role_vi": "Tình nguyện viên",
-      "role_en": "Volunteer",
-      "quote_vi": "",
-      "quote_en": "",
-      "image": ""
-    },
-    {
-      "name": "Trần Bảo Nam",
-      "role_vi": "Tình nguyện viên",
-      "role_en": "Volunteer",
-      "quote_vi": "",
-      "quote_en": "",
-      "image": ""
-    },
-    {
-      "name": "Hoàng Thảo Hân",
-      "role_vi": "Tình nguyện viên",
-      "role_en": "Volunteer",
-      "quote_vi": "",
-      "quote_en": "",
-      "image": ""
-    },
-    {
-      "name": "Triệu Ngọc Ánh",
-      "role_vi": "Tình nguyện viên",
-      "role_en": "Volunteer",
-      "quote_vi": "",
-      "quote_en": "",
-      "image": ""
-    },
-    {
-      "name": "Vi Đàm Được",
-      "role_vi": "Tình nguyện viên",
-      "role_en": "Volunteer",
-      "quote_vi": "",
-      "quote_en": "",
+      "quote_vi": "(Điền câu chia sẻ thật về hành trình dạy học tại vùng biên.)",
+      "quote_en": "(Insert a real quote about teaching in the border region.)",
       "image": ""
     }
   ],
@@ -446,8 +435,8 @@
   "note_en": "Presentation principle: clearly separate implemented work from proposals; cooperate only with lawfully-present foreigners; comply with copyright, image rights and child protection; no commercial use. Full cooperation/consent documents and name lists are submitted with the dossier to the Award Organising Committee.",
   "foot_vi": "Sáng kiến “Lớp học biên cương - Border Classroom” · Đơn vị đề xuất: Công ty TNHH Giáo dục và Đào tạo Clever Kids (Anh ngữ Clever Junior) · Chủ nhiệm: Bà Vũ Kim Dung. Trung thực – không phóng đại – bảo vệ trẻ em – không thương mại hóa hình ảnh trẻ em.",
   "foot_en": "Initiative “Border Classroom” · Proposed by Clever Kids Education Co., Ltd (Clever Junior English) · Author: Ms. Vu Kim Dung. Honest – no exaggeration – child protection – no commercial use of children’s images.",
-  "model_intro_vi": "Mô hình “Lớp học biên cương – Border Classroom” được triển khai theo ba cấu phần:",
-  "model_intro_en": "The “Border Classroom” model runs on three components:",
+  "model_intro_vi": "Có thể hình dung mô hình theo một mạch liền: Lớp tiếng Anh cộng đồng (nền tảng) → Người học kể chuyện quê hương bằng tiếng Anh → Điểm giao lưu văn hóa có kiểm soát với người nước ngoài hợp pháp → Kênh thông tin đối ngoại nhân dân. Mô hình được triển khai theo ba cấu phần:",
+  "model_intro_en": "The model can be seen as one continuous flow: community English class (foundation) → learners telling homeland stories in English → controlled cultural-exchange points with lawful foreigners → a people-to-people external-information channel. It is delivered through three components:",
   "components": [
     {
       "t_vi": "Lớp tiếng Anh cộng đồng",
@@ -526,6 +515,54 @@
       "owner_en": "Coordination team",
       "result_vi": "Số lớp, số học viên, phản hồi",
       "result_en": "Classes, learners, feedback"
+    }
+  ],
+  "intl_title_vi": "Chiến lược hiện diện số hướng khách quốc tế",
+  "intl_title_en": "Digital presence strategy for international visitors",
+  "intl_lead_vi": "Thay vì đặt mục tiêu “thu hút khách quốc tế” chung chung, sáng kiến đặt đầu ra của lớp học vào đúng nơi khách quốc tế tìm thông tin, tận dụng đà du lịch Cao Bằng: 6 tháng đầu 2025 đón hơn 1,52 triệu lượt khách (+47,7%), riêng khách quốc tế gần 58.000 lượt (+176,8% so với cùng kỳ).",
+  "intl_lead_en": "Instead of a vague goal to “attract foreign visitors”, the initiative places the classroom’s output where international travellers actually look, riding Cao Bang’s tourism momentum: over 1.52 million visitors in H1 2025 (+47.7%), including nearly 58,000 international arrivals (+176.8% year-on-year).",
+  "intl_channels_vi": [
+    "Google Search & Maps",
+    "Blog du lịch (Vietnam Coracle…)",
+    "TripAdvisor",
+    "Reddit (r/VietnamTravel)",
+    "YouTube",
+    "Facebook · Instagram · TikTok",
+    "Booking · Agoda · Hostelworld"
+  ],
+  "intl_channels_en": [
+    "Google Search & Maps",
+    "Travel blogs (Vietnam Coracle…)",
+    "TripAdvisor",
+    "Reddit (r/VietnamTravel)",
+    "YouTube",
+    "Facebook · Instagram · TikTok",
+    "Booking · Agoda · Hostelworld"
+  ],
+  "intl_actions": [
+    {
+      "t_vi": "Biến đầu ra lớp học thành nội dung tiếng Anh",
+      "t_en": "Turn class output into English content",
+      "d_vi": "Clip ngắn học viên giới thiệu quê hương bằng tiếng Anh, đăng YouTube và nhúng vào website — đúng chất trải nghiệm chân thực du khách tìm kiếm.",
+      "d_en": "Short clips of learners introducing their homeland in English, on YouTube and embedded on the website — the authentic experience travellers seek."
+    },
+    {
+      "t_vi": "Hợp tác kênh sẵn có thay vì dựng từ đầu",
+      "t_en": "Partner with existing channels",
+      "d_vi": "Gửi câu chuyện tới các blog/hãng lữ hành đang phủ nội dung Cao Bằng để được nhắc tên, liên kết — hiệu quả hơn tự đăng nhiều bài rời rạc.",
+      "d_en": "Pitch the story to blogs/tour operators already covering Cao Bang for mentions and links — more effective than scattered self-posting."
+    },
+    {
+      "t_vi": "Hiện diện tại điểm chạm du lịch thật",
+      "t_en": "Show up at real tourist touchpoints",
+      "d_vi": "Học viên chào hỏi, chỉ đường, giới thiệu bằng tiếng Anh ngay tại Bản Giốc, Phố đi bộ Kim Đồng — trải nghiệm du khách gặp trực tiếp.",
+      "d_en": "Learners greeting, giving directions and introductions in English at Ban Gioc and Kim Dong walking street — an experience visitors meet in person."
+    },
+    {
+      "t_vi": "Đo lường trung thực",
+      "t_en": "Measure honestly",
+      "d_vi": "Theo dõi lượt xem, lượt lưu, chia sẻ và phản hồi của khách quốc tế; không tuyên bố “phủ sóng toàn cầu”.",
+      "d_en": "Track views, saves, shares and international feedback; no claims of “global coverage”."
     }
   ]
 }
