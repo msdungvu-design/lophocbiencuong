@@ -336,8 +336,8 @@
       "image": "b_tienganh_congdong.jpg"
     }
   ],
-  "voices_intro_vi": "Những gương mặt dưới đây là một số đại diện tiêu biểu cho đội ngũ giáo viên, trợ giảng và tình nguyện viên đã đồng hành cùng sáng kiến, góp phần đưa các lớp học tiếng Anh cộng đồng đến gần hơn với trẻ em, cán bộ cơ sở và người dân địa phương. Trong đó có một số bạn bè quốc tế đang làm việc hợp pháp tại Hà Nội, sẵn sàng đồng hành khi mô hình “điểm trạm giao lưu văn hóa” được triển khai theo đúng khung pháp lý.",
-  "voices_intro_en": "The faces below are a few representatives of the teachers, teaching assistants and volunteers who have accompanied the initiative, helping bring free community English classes closer to children, grassroots officials and local people. Among them are international friends working legally in Hanoi who are ready to join once the “cultural-exchange stopover” model is implemented within the proper legal framework.",
+  "voices_intro_vi": "Những gương mặt dưới đây là một số đại diện tiêu biểu cho đội ngũ giáo viên, trợ giảng và tình nguyện viên đã đồng hành cùng sáng kiến, góp phần đưa các lớp học tiếng Anh cộng đồng đến gần hơn với trẻ em, cán bộ cơ sở và người dân địa phương. Danh sách cũng ghi nhận một số bạn bè quốc tế đang làm việc hợp pháp tại Việt Nam, sẵn sàng đồng hành khi mô hình điểm giao lưu văn hóa đủ điều kiện triển khai theo quy định pháp luật.",
+  "voices_intro_en": "The faces below are a few representatives of the teachers, teaching assistants and volunteers who have accompanied the initiative, helping bring free community English classes closer to children, grassroots officials and local people. The list also includes international friends working legally in Vietnam who are ready to take part once the cultural-exchange model meets the conditions for implementation under the law.",
   "voices": [
     {
       "name": "Giáo viên 1",
@@ -542,66 +542,6 @@
       "owner_en": "Coordination team",
       "result_vi": "Số lớp, số học viên, phản hồi",
       "result_en": "Classes, learners, feedback"
-    }
-  ],
-  "intl_title_vi": "Chiến lược hiện diện số hướng khách quốc tế",
-  "intl_title_en": "Digital presence strategy for international visitors",
-  "intl_lead_vi": "Thay vì đặt mục tiêu “thu hút khách quốc tế” chung chung, sáng kiến đặt đầu ra của lớp học vào đúng nơi khách quốc tế tìm thông tin, tận dụng đà du lịch Cao Bằng: 6 tháng đầu 2025 đón hơn 1,52 triệu lượt khách (+47,7%), riêng khách quốc tế gần 58.000 lượt (+176,8% so với cùng kỳ).",
-  "intl_lead_en": "Instead of a vague goal to “attract foreign visitors”, the initiative places the classroom’s output where international travellers actually look, riding Cao Bang’s tourism momentum: over 1.52 million visitors in H1 2025 (+47.7%), including nearly 58,000 international arrivals (+176.8% year-on-year).",
-  "intl_channels": [
-    {
-      "label": "Google Search & Maps",
-      "url": "https://www.google.com/search?q=Cao+Bang+Vietnam+travel"
-    },
-    {
-      "label": "Vietnam Coracle",
-      "url": "https://www.vietnamcoracle.com/"
-    },
-    {
-      "label": "TripAdvisor",
-      "url": "https://www.tripadvisor.com/Search?q=Cao%20Bang"
-    },
-    {
-      "label": "Reddit · r/VietnamTravel",
-      "url": "https://www.reddit.com/r/VietnamTravel/"
-    },
-    {
-      "label": "YouTube",
-      "url": "https://www.youtube.com/results?search_query=Cao+Bang+Vietnam"
-    },
-    {
-      "label": "Instagram #caobang",
-      "url": "https://www.instagram.com/explore/tags/caobang/"
-    },
-    {
-      "label": "Booking · Agoda",
-      "url": "https://www.booking.com/searchresults.html?ss=Cao+Bang%2C+Vietnam"
-    }
-  ],
-  "intl_actions": [
-    {
-      "t_vi": "Biến đầu ra lớp học thành nội dung tiếng Anh",
-      "t_en": "Turn class output into English content",
-      "d_vi": "Clip ngắn học viên giới thiệu quê hương bằng tiếng Anh, đăng YouTube và nhúng vào website — đúng chất trải nghiệm chân thực du khách tìm kiếm.",
-      "d_en": "Short clips of learners introducing their homeland in English, on YouTube and embedded on the website — the authentic experience travellers seek."
-    },
-    {
-      "t_vi": "Hợp tác kênh sẵn có thay vì dựng từ đầu",
-      "t_en": "Partner with existing channels",
-      "d_vi": "Gửi câu chuyện tới các blog/hãng lữ hành đang phủ nội dung Cao Bằng để được nhắc tên, liên kết — hiệu quả hơn tự đăng nhiều bài rời rạc.",
-      "d_en": "Pitch the story to blogs/tour operators already covering Cao Bang for mentions and links — more effective than scattered self-posting."
-    },
-    {
-      "t_vi": "Hiện diện tại điểm chạm du lịch thật",
-      "t_en": "Show up at real tourist touchpoints",
-      "d_vi": "Học viên chào hỏi, chỉ đường, giới thiệu bằng tiếng Anh ngay tại Bản Giốc, Phố đi bộ Kim Đồng — trải nghiệm du khách gặp trực tiếp.",
-      "d_en": "Learners greeting, giving directions and introductions in English at Ban Gioc and Kim Dong walking street — an experience visitors meet in person."
-    },
-    {
-      "t_vi": "Đo lường trung thực",
-      "t_en": "Measure honestly",
-      "d_vi": "Theo dõi lượt xem, lượt lưu, chia sẻ và phản hồi của khách quốc tế; không tuyên bố “phủ sóng toàn cầu”.",
-      "d_en": "Track views, saves, shares and international feedback; no claims of “global coverage”."
     }
   ]
 }
