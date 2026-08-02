@@ -528,7 +528,16 @@
       "result_en": "Classes, learners, feedback"
     }
   ],
-  "home_image": "home_hero.jpg",
-  "home_caption_vi": "Giáo viên Clever Junior và các em nhỏ tại lễ khởi động Dự án “Tiếng Anh cộng đồng”, Cao Bằng 2025.",
-  "home_caption_en": "A Clever Junior teacher with children at the launch of the “Community English” project, Cao Bang 2025."
+  "home_images": [
+    {
+      "src": "home_hero.jpg",
+      "cap_vi": "Lớp học tiếng Anh cộng đồng miễn phí cho trẻ em, Cao Bằng 2025.",
+      "cap_en": "A free community English class for children, Cao Bang 2025."
+    },
+    {
+      "src": "home_tnv2.jpg",
+      "cap_vi": "Đội ngũ giáo viên và tình nguyện viên đồng hành cùng dự án.",
+      "cap_en": "The teachers and volunteers accompanying the project."
+    }
+  ]
 }
