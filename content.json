@@ -5,7 +5,7 @@
     "Hành trình đã làm",
     "Mô hình",
     "Lộ trình",
-    "Ghi nhận & Chia sẻ",
+    "Ghi nhận",
     "Liên hệ"
   ],
   "nav_en": [
@@ -14,7 +14,7 @@
     "Our journey",
     "Model",
     "Roadmap",
-    "Recognition & Voices",
+    "Recognition",
     "Contact"
   ],
   "hero_title_vi": "Lớp học biên cương",
@@ -334,74 +334,6 @@
       "title_en": "Community English project & child mental-health counselling, 2025",
       "url": "https://tinhdoan.caobang.gov.vn/index.php/tin-tuc/khoi-dong-du-an-tieng-anh-cong-dong-tu-van-cham-soc-suc-khoe-tam-than-cho-thieu-nhi-nam-2025-3082.html",
       "image": "b_tienganh_congdong.jpg"
-    }
-  ],
-  "voices_intro_vi": "Những gương mặt dưới đây là một số đại diện tiêu biểu cho đội ngũ giáo viên, trợ giảng và tình nguyện viên đã đồng hành cùng sáng kiến, góp phần đưa các lớp học tiếng Anh cộng đồng đến gần hơn với trẻ em, cán bộ cơ sở và người dân địa phương.",
-  "voices_intro_en": "The faces below are a few representatives of the teachers, teaching assistants and volunteers who have accompanied the initiative, helping bring free community English classes closer to children, grassroots officials and local people.",
-  "voices": [
-    {
-      "name": "Giáo viên 1",
-      "role_vi": "Giáo viên chương trình",
-      "role_en": "Program teacher",
-      "quote_vi": "",
-      "quote_en": "",
-      "image": ""
-    },
-    {
-      "name": "Giáo viên 2",
-      "role_vi": "Giáo viên chương trình",
-      "role_en": "Program teacher",
-      "quote_vi": "",
-      "quote_en": "",
-      "image": ""
-    },
-    {
-      "name": "Giáo viên 3",
-      "role_vi": "Giáo viên chương trình",
-      "role_en": "Program teacher",
-      "quote_vi": "",
-      "quote_en": "",
-      "image": ""
-    },
-    {
-      "name": "Nguyễn Thảo Hiền",
-      "role_vi": "Tình nguyện viên",
-      "role_en": "Volunteer",
-      "quote_vi": "",
-      "quote_en": "",
-      "image": ""
-    },
-    {
-      "name": "Trần Bảo Nam",
-      "role_vi": "Tình nguyện viên",
-      "role_en": "Volunteer",
-      "quote_vi": "",
-      "quote_en": "",
-      "image": ""
-    },
-    {
-      "name": "Hoàng Thảo Hân",
-      "role_vi": "Tình nguyện viên",
-      "role_en": "Volunteer",
-      "quote_vi": "",
-      "quote_en": "",
-      "image": ""
-    },
-    {
-      "name": "Triệu Ngọc Ánh",
-      "role_vi": "Tình nguyện viên",
-      "role_en": "Volunteer",
-      "quote_vi": "",
-      "quote_en": "",
-      "image": ""
-    },
-    {
-      "name": "Vi Đàm Được",
-      "role_vi": "Tình nguyện viên",
-      "role_en": "Volunteer",
-      "quote_vi": "",
-      "quote_en": "",
-      "image": ""
     }
   ],
   "contact": [
