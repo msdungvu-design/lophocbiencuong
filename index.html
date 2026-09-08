@@ -122,6 +122,21 @@
   .vrole{font-size:12px;color:var(--mut)}
   @media(max-width:900px){.vgrid{grid-template-columns:repeat(2,1fr)}}
   @media(max-width:560px){.vgrid{grid-template-columns:1fr}}
+  .journey-feature{display:grid;grid-template-columns:minmax(0,1.45fr) minmax(260px,.75fr);gap:18px;background:var(--card);border:1px solid var(--bd);border-radius:14px;padding:16px;margin-top:16px}
+  .journey-video{position:relative;width:100%;padding-top:56.25%;overflow:hidden;border-radius:10px;background:var(--dark)}
+  .journey-video iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+  .journey-copy{display:flex;flex-direction:column;justify-content:center;padding:6px 8px}
+  .journey-copy h3{margin:0 0 8px;color:var(--dark);font-size:19px}
+  .journey-copy p{margin:0;color:#3d4d54;font-size:14px}
+  .story-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:18px}
+  .story-card{background:var(--card);border:1px solid var(--bd);border-radius:14px;overflow:hidden;display:flex;flex-direction:column}
+  .story-card img{width:100%;height:270px;object-fit:cover;object-position:center 24%;display:block}
+  .story-body{padding:16px;display:flex;flex-direction:column;gap:9px;flex:1}
+  .story-person{margin:0;color:var(--dark);font-size:15.5px;line-height:1.35}
+  .story-person strong{font-weight:800}.story-aff{font-weight:800;font-style:italic}
+  .story-quote{margin:0;color:#3d4d54;font-size:13.5px;font-style:italic;line-height:1.65}
+  @media(max-width:900px){.story-grid{grid-template-columns:repeat(2,1fr)}.journey-feature{grid-template-columns:1fr}.journey-copy{padding:4px 2px}}
+  @media(max-width:560px){.story-grid{grid-template-columns:1fr}.story-card img{height:320px}}
   footer{background:var(--dark);color:#cfe0e5;font-size:13px;text-align:center;padding:20px;margin-top:30px}
   @media(max-width:720px){.kpis{grid-template-columns:repeat(2,1fr)}.hero h1{font-size:26px}}
   .join-fab{position:fixed;right:18px;bottom:18px;z-index:80;background:var(--gold);color:#3a2a06;border:0;font:inherit;font-weight:800;font-size:14px;padding:12px 18px;border-radius:30px;box-shadow:0 4px 14px rgba(0,0,0,.22);cursor:pointer;display:flex;align-items:center;gap:8px;animation:fabpulse 2.6s ease-in-out infinite}
@@ -218,6 +233,16 @@ const SCENE=`<svg class="scene" viewBox="0 0 600 150" preserveAspectRatio="none"
 <g fill="#08303f"><circle cx="128" cy="123" r="5"/><rect x="124" y="128" width="9" height="15" rx="4"/></g>
 </svg>`;
 const head=(kick,title)=>`<span class="kicker">${kick}</span><h1 class="title">${title}</h1>`;
+function journeySection(){
+  if(!D.journey_people||!D.journey_people.length)return "";
+  const video=D.journey_video||{}, videoId=ytId(video.url);
+  const feature=videoId?`<div class="journey-feature"><div class="journey-video"><iframe src="https://www.youtube-nocookie.com/embed/${videoId}" title="${L(video,"title")}" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="journey-copy"><h3>${L(video,"title")}</h3><p>${L(video,"desc")}</p></div></div>`:"";
+  const people=D.journey_people.map(p=>{
+    const affiliation=L(p,"affiliation");
+    return `<article class="story-card"><img src="${p.image}" alt="${p.name}" loading="lazy"><div class="story-body"><h3 class="story-person"><strong>${p.name}</strong>${affiliation?` <span class="story-aff">(${affiliation})</span>`:""}</h3><blockquote class="story-quote">“${L(p,"quote")}”</blockquote></div></article>`;
+  }).join("");
+  return `<section class="blk"><h2>${L(D,"journey_section_title")}</h2><p class="lead">${L(D,"journey_intro")}</p>${feature}<div class="story-grid">${people}</div></section>`;
+}
 const PAGES=[
  ()=>`<div class="hero"><div class="en">${D.hero_en_label||"BORDER CLASSROOM"}</div><h1>${L(D,"hero_title")}</h1><p>${L(D,"hero_desc")}</p>
    <div class="btns"><button class="btn gold" data-p="2">${lang==="vi"?"Xem hành trình":"Our journey"}</button><button class="btn ghost" data-p="5">${lang==="vi"?"Báo chí ghi nhận":"Press coverage"}</button></div><div class="hgrid two"><figure class="hfig"><img class="hbanner" src="home_hero.jpg" alt="Lớp học tiếng Anh cộng đồng"><figcaption class="hcap">${lang==="vi"?"Lớp học tiếng Anh cộng đồng miễn phí cho trẻ em, Cao Bằng 2025.":"A free community English class for children, Cao Bang 2025."}</figcaption></figure><figure class="hfig"><img class="hbanner" src="home_tnv2.jpg" alt="Đội ngũ tình nguyện viên"><figcaption class="hcap">${lang==="vi"?"Đội ngũ giáo viên và tình nguyện viên đồng hành cùng dự án.":"The teachers and volunteers accompanying the project."}</figcaption></figure></div></div>
@@ -229,7 +254,8 @@ const PAGES=[
    +D.context.map(c=>`<section class="blk"><h2>${L(c,"h")}</h2><p class="lead">${L(c,"p")}</p></section>`).join(""),
  ()=>head(lang==="vi"?"Kết quả thực tế 2025-2026":"Actual results 2025-2026",lang==="vi"?"Hành trình đã làm":"Our journey")
    +`<section class="blk"><div class="cards">${D.done_cards.map(c=>`<div class="card">${c.image?`<img src="${c.image}" alt="">`:""}<h3>${L(c,"title")}</h3><p>${L(c,"body")}</p>${tag("done",L(c,"tag"))}</div>`).join("")}</div></section>`
-   +`<section class="blk"><p class="lead">${L(D,"done_note")}</p></section>`,
+   +`<section class="blk"><p class="lead">${L(D,"done_note")}</p></section>`
+   +journeySection(),
  ()=>head(lang==="vi"?"Cấu trúc & cơ chế":"Structure & safeguards",lang==="vi"?"Mô hình":"The model")
    +`<section class="blk"><h2>${lang==="vi"?"Ba cấu phần của mô hình":"Three model components"}</h2><p class="lead">${L(D,"model_intro")}</p><div class="cards" style="margin-top:12px">${(D.components||[]).map(c=>`<div class="card"><h3>${L(c,"t")}</h3><p>${L(c,"d")}</p>${tag(c.sclass||"plan",L(c,"status"))}</div>`).join("")}</div><div class="note">${L(D,"model_note")}</div></section>`
    +`<section class="blk"><h2>${lang==="vi"?"Ba tầng giá trị":"Three value layers"}</h2><div class="tiers">${D.tiers.map(t=>`<div class="tier">${L(t,"a")}<span>${L(t,"b")}</span></div>`).join("")}</div></section>`
