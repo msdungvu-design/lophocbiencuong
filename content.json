@@ -126,12 +126,12 @@
   },
   "journey_people": [
     {
-      "name": "Triệu Ngọc Ánh",
-      "affiliation_vi": "",
-      "affiliation_en": "",
-      "quote_vi": "Qua 2 năm tham gia dự án, em cảm thấy hạnh phúc và bản thân cũng mở ra được nhiều góc nhìn hơn về cuộc sống. Được giúp đỡ những em nhỏ và nhìn các em chăm chỉ, tiến bộ hơn trong quá trình học tập khiến em thấy dự án thật sự rất ý nghĩa.",
-      "quote_en": "After two years with the project, I feel happy and have gained many new perspectives on life. Helping the children and seeing their hard work and progress has shown me how truly meaningful this project is.",
-      "image": "people/trieu-ngoc-anh.webp"
+      "name": "Nourddine Merrahi",
+      "affiliation_vi": "Morocco",
+      "affiliation_en": "Morocco",
+      "quote_vi": "Tiếng Anh là ngôn ngữ toàn cầu; việc học tiếng Anh có thể mở ra nhiều cánh cửa và thay đổi cuộc sống. Là một giáo viên tiếng Anh, tôi rất vui và tự hào khi được tham gia dự án cộng đồng miễn phí này. Tôi hy vọng dự án sẽ tạo thêm nhiều cơ hội cho người dân Cao Bằng thông qua giáo dục dễ tiếp cận, thiết thực và hòa nhập. Việc thu hút thêm khách quốc tế đến tìm hiểu và đóng góp cũng có thể thúc đẩy sự trao đổi ý nghĩa về tri thức, kỹ năng và văn hóa, mang lại lợi ích cho tất cả những người tham gia.",
+      "quote_en": "English is a global language, and learning it can open doors and change lives. As an English teacher, I am happy and proud to be part of this free community project. I hope it creates more opportunities for the people of Cao Bang by making education accessible, practical, and inclusive. By attracting more international visitors to learn and contribute, the project can foster a meaningful exchange of knowledge, skills, and culture that benefits everyone involved.",
+      "image": "people/nourddine-merrahi.webp"
     },
     {
       "name": "Trần Bảo Nam",
@@ -140,6 +140,22 @@
       "quote_vi": "Hướng về vùng cao biên giới bằng những hành động thiết thực và tình yêu thương sâu sắc. Mình tin rằng dự án “Lớp học biên cương” sẽ thu hút đông đảo sự quan tâm, tiếp thêm sức mạnh và niềm tin cho các em nhỏ trên con đường tìm kiếm tri thức.",
       "quote_en": "Turning towards the border highlands with practical action and heartfelt care, I believe the Border Classroom project will attract broad support and give children greater strength and confidence on their journey towards knowledge.",
       "image": "people/tran-bao-nam.webp"
+    },
+    {
+      "name": "Hoàng Thảo Hân",
+      "affiliation_vi": "Đại học Sư phạm Hà Nội",
+      "affiliation_en": "Hanoi National University of Education",
+      "quote_vi": "Được trau dồi bản thân, có cơ hội gieo mầm tri thức cũng như được chứng kiến một thế hệ đang nỗ lực vươn mình dù hoàn cảnh còn khó khăn là trải nghiệm tuyệt vời nhất em từng có trong 2 năm qua.",
+      "quote_en": "Growing as a person, having the opportunity to sow the seeds of knowledge, and witnessing a generation striving to rise despite difficult circumstances has been the most wonderful experience of my past two years.",
+      "image": "people/hoang-thao-han.webp"
+    },
+    {
+      "name": "Triệu Ngọc Ánh",
+      "affiliation_vi": "Cao Bằng",
+      "affiliation_en": "Cao Bang",
+      "quote_vi": "Qua 2 năm tham gia dự án, em cảm thấy hạnh phúc và bản thân cũng mở ra được nhiều góc nhìn hơn về cuộc sống. Được giúp đỡ những em nhỏ và nhìn các em chăm chỉ, tiến bộ hơn trong quá trình học tập khiến em thấy dự án thật sự rất ý nghĩa.",
+      "quote_en": "After two years with the project, I feel happy and have gained many new perspectives on life. Helping the children and seeing their hard work and progress has shown me how truly meaningful this project is.",
+      "image": "people/trieu-ngoc-anh.webp"
     },
     {
       "name": "Vi Đàm Được",
@@ -156,22 +172,6 @@
       "quote_vi": "Được đồng hành cùng Dự án Lớp học tiếng Anh cộng đồng là một hành trình đáng nhớ đối với em. Qua những buổi học và hoạt động tình nguyện, em có cơ hội gặp gỡ, kết nối với các em nhỏ và người dân địa phương, đồng thời học được sự sẻ chia và trách nhiệm với cộng đồng. Em rất vui khi được góp một phần công sức vào lớp học và hy vọng dự án sẽ mang đến thêm nhiều cơ hội học tập, giao tiếp và phát triển cho các em học sinh và người dân địa phương, góp phần xây dựng một Cao Bằng thân thiện, hiếu học và ngày càng phát triển.",
       "quote_en": "Accompanying the Community English Classroom Project has been a memorable journey for me. Through lessons and volunteer activities, I have connected with children and local people while learning about sharing and community responsibility. I am happy to contribute and hope the project creates more opportunities for learning, communication and development, helping build a friendly, learning-oriented and increasingly prosperous Cao Bang.",
       "image": "people/nguyen-thao-hien.webp"
-    },
-    {
-      "name": "Hoàng Thảo Hân",
-      "affiliation_vi": "Đại học Sư phạm Hà Nội",
-      "affiliation_en": "Hanoi National University of Education",
-      "quote_vi": "Được trau dồi bản thân, có cơ hội gieo mầm tri thức cũng như được chứng kiến một thế hệ đang nỗ lực vươn mình dù hoàn cảnh còn khó khăn là trải nghiệm tuyệt vời nhất em từng có trong 2 năm qua.",
-      "quote_en": "Growing as a person, having the opportunity to sow the seeds of knowledge, and witnessing a generation striving to rise despite difficult circumstances has been the most wonderful experience of my past two years.",
-      "image": "people/hoang-thao-han.webp"
-    },
-    {
-      "name": "Nourddine Merrahi",
-      "affiliation_vi": "Morocco",
-      "affiliation_en": "Morocco",
-      "quote_vi": "Tiếng Anh là ngôn ngữ toàn cầu; việc học tiếng Anh có thể mở ra nhiều cánh cửa và thay đổi cuộc sống. Là một giáo viên tiếng Anh, tôi rất vui và tự hào khi được tham gia dự án cộng đồng miễn phí này. Tôi hy vọng dự án sẽ tạo thêm nhiều cơ hội cho người dân Cao Bằng thông qua giáo dục dễ tiếp cận, thiết thực và hòa nhập. Việc thu hút thêm khách quốc tế đến tìm hiểu và đóng góp cũng có thể thúc đẩy sự trao đổi ý nghĩa về tri thức, kỹ năng và văn hóa, mang lại lợi ích cho tất cả những người tham gia.",
-      "quote_en": "English is a global language, and learning it can open doors and change lives. As an English teacher, I am happy and proud to be part of this free community project. I hope it creates more opportunities for the people of Cao Bang by making education accessible, practical, and inclusive. By attracting more international visitors to learn and contribute, the project can foster a meaningful exchange of knowledge, skills, and culture that benefits everyone involved.",
-      "image": "people/nourddine-merrahi.webp"
     }
   ],
   "tiers": [
