@@ -163,7 +163,8 @@
       "affiliation_en": "Cao Bang",
       "quote_vi": "Được đồng hành cùng các em trong “Dự án Tiếng Anh cộng đồng”, nhìn các em tiến bộ hơn từng ngày là động lực to lớn để em luôn giữ sự nhiệt huyết, không ngừng học hỏi và lan tỏa những giá trị tích cực cho cộng đồng.",
       "quote_en": "Accompanying the children in the Community English Project and seeing their progress each day is a powerful motivation for me to stay passionate, keep learning and spread positive values throughout the community.",
-      "image": "people/vi-dam-duoc.webp"
+      "image": "people/vi-dam-duoc.webp",
+      "focus": "50% 38%"
     },
     {
       "name": "Nguyễn Thảo Hiền",
@@ -171,7 +172,8 @@
       "affiliation_en": "Cao Bang",
       "quote_vi": "Được đồng hành cùng Dự án Lớp học tiếng Anh cộng đồng là một hành trình đáng nhớ đối với em. Qua những buổi học và hoạt động tình nguyện, em có cơ hội gặp gỡ, kết nối với các em nhỏ và người dân địa phương, đồng thời học được sự sẻ chia và trách nhiệm với cộng đồng. Em rất vui khi được góp một phần công sức vào lớp học và hy vọng dự án sẽ mang đến thêm nhiều cơ hội học tập, giao tiếp và phát triển cho các em học sinh và người dân địa phương, góp phần xây dựng một Cao Bằng thân thiện, hiếu học và ngày càng phát triển.",
       "quote_en": "Accompanying the Community English Classroom Project has been a memorable journey for me. Through lessons and volunteer activities, I have connected with children and local people while learning about sharing and community responsibility. I am happy to contribute and hope the project creates more opportunities for learning, communication and development, helping build a friendly, learning-oriented and increasingly prosperous Cao Bang.",
-      "image": "people/nguyen-thao-hien.webp"
+      "image": "people/nguyen-thao-hien.webp",
+      "focus": "50% 45%"
     }
   ],
   "tiers": [
@@ -353,6 +355,17 @@
       "image": ""
     }
   ],
+  "featured_report": {
+    "url": "https://www.youtube.com/watch?v=k1SV1gkFcSQ",
+    "source_vi": "Báo và Phát thanh, Truyền hình Cao Bằng",
+    "source_en": "Cao Bang Newspaper, Radio and Television",
+    "label_vi": "Phóng sự truyền hình",
+    "label_en": "Featured TV report",
+    "title_vi": "CHƯƠNG TRÌNH THANH NIÊN: Tuổi trẻ gieo tri thức thắp sáng ước mơ",
+    "title_en": "YOUTH PROGRAMME: Young people sow knowledge and light up dreams",
+    "desc_vi": "Phóng sự ghi lại những hình ảnh thực tế về hành trình tuổi trẻ Cao Bằng chung tay đưa tri thức và cơ hội học tập đến gần hơn với trẻ em.",
+    "desc_en": "A television report capturing how young people in Cao Bang help bring knowledge and learning opportunities closer to children."
+  },
   "press": [
     {
       "source": "Tỉnh Đoàn Cao Bằng",
@@ -397,6 +410,24 @@
       "image": "b_tienganh_congdong.jpg"
     }
   ],
+  "author_profile": {
+    "name": "Vũ Kim Dung",
+    "label_vi": "Tác giả sáng kiến",
+    "label_en": "Initiative author",
+    "roles_vi": [
+      "Người sáng lập Anh ngữ Clever Junior",
+      "Phó Giám đốc Công ty TNHH Giáo dục và Đào tạo Clever Kids",
+      "Giảng viên Học viện Công nghệ Bưu chính Viễn thông"
+    ],
+    "roles_en": [
+      "Founder of Clever Junior English",
+      "Deputy Director, Clever Kids Education and Training Co., Ltd.",
+      "Lecturer, Posts and Telecommunications Institute of Technology"
+    ],
+    "quote_vi": "Là người con Cao Bằng đang sinh sống và làm việc tại Hà Nội, tôi khởi xướng “Lớp học biên cương” từ mong muốn đưa cơ hội học tập ngoại ngữ và kết nối quốc tế đến gần hơn với trẻ em và cộng đồng tại quê hương. Với kinh nghiệm trong giáo dục, đào tạo và kết nối nguồn lực xã hội, tôi cùng các đơn vị địa phương, giáo viên và tình nguyện viên duy trì những lớp học cộng đồng miễn phí, từng bước chuyển hoạt động thiện nguyện thành một mô hình có tổ chức, có trách nhiệm và khả năng phát triển lâu dài.",
+    "quote_en": "As a native of Cao Bang now living and working in Hanoi, I initiated Border Classroom with the desire to bring foreign-language learning and international connection closer to children and communities in my homeland. Drawing on experience in education, training and social-resource mobilisation, I work alongside local partners, teachers and volunteers to sustain free community classes and gradually develop charitable activities into an organised, responsible model with long-term potential.",
+    "image": "people/vu-kim-dung.webp"
+  },
   "contact": [
     {
       "k_vi": "Đơn vị đề xuất",

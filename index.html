@@ -137,6 +137,14 @@
   .story-quote{margin:0;color:#3d4d54;font-size:13.5px;font-style:italic;line-height:1.65}
   @media(max-width:900px){.story-grid{grid-template-columns:repeat(2,1fr)}.journey-feature{grid-template-columns:1fr}.journey-copy{padding:4px 2px}}
   @media(max-width:560px){.story-grid{grid-template-columns:1fr}.story-card img{height:320px}}
+  .report-feature{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(270px,.65fr);gap:18px;background:#fff;border:1px solid #e7c47e;border-top:5px solid var(--gold);border-radius:14px;padding:16px;margin:14px 0 24px;box-shadow:0 5px 18px rgba(14,77,100,.1)}
+  .report-media{position:relative;width:100%;padding-top:56.25%;overflow:hidden;border-radius:10px;background:var(--dark)}
+  .report-media iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+  .report-copy{display:flex;flex-direction:column;justify-content:center;padding:4px 6px}.report-copy h3{margin:8px 0;color:var(--dark);font-size:19px;line-height:1.4}.report-copy p{font-size:13.5px;color:#3d4d54}.report-source{font-size:12px;font-weight:800;color:var(--teal)}
+  .report-label{align-self:flex-start;background:var(--gold);color:#3a2a06;font-size:11px;font-weight:900;letter-spacing:.7px;text-transform:uppercase;padding:4px 10px;border-radius:20px}
+  .author-card{display:grid;grid-template-columns:minmax(300px,.9fr) minmax(0,1.1fr);background:#fff;border:1px solid var(--bd);border-radius:16px;overflow:hidden;margin-top:14px}
+  .author-card img{width:100%;height:100%;min-height:330px;object-fit:cover;object-position:center;display:block}.author-copy{padding:26px}.author-label{color:var(--gold-d);font-size:11px;font-weight:900;letter-spacing:1px;text-transform:uppercase}.author-copy h3{margin:5px 0 8px;color:var(--dark);font-size:24px}.author-roles{margin:0 0 15px;padding:0;list-style:none}.author-roles li{font-size:13.5px;font-weight:700;font-style:italic;color:var(--teal);margin:3px 0}.author-quote{margin:0;color:#33454c;font-size:14px;font-style:italic;line-height:1.7}
+  @media(max-width:760px){.report-feature,.author-card{grid-template-columns:1fr}.author-card img{min-height:0;max-height:360px}.author-copy{padding:20px}}
   footer{background:var(--dark);color:#cfe0e5;font-size:13px;text-align:center;padding:20px;margin-top:30px}
   @media(max-width:720px){.kpis{grid-template-columns:repeat(2,1fr)}.hero h1{font-size:26px}}
   .join-fab{position:fixed;right:18px;bottom:18px;z-index:80;background:var(--gold);color:#3a2a06;border:0;font:inherit;font-weight:800;font-size:14px;padding:12px 18px;border-radius:30px;box-shadow:0 4px 14px rgba(0,0,0,.22);cursor:pointer;display:flex;align-items:center;gap:8px;animation:fabpulse 2.6s ease-in-out infinite}
@@ -239,9 +247,18 @@ function journeySection(){
   const feature=videoId?`<div class="journey-feature"><div class="journey-video"><iframe src="https://www.youtube-nocookie.com/embed/${videoId}" title="${L(video,"title")}" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="journey-copy"><h3>${L(video,"title")}</h3><p>${L(video,"desc")}</p></div></div>`:"";
   const people=D.journey_people.map(p=>{
     const affiliation=L(p,"affiliation");
-    return `<article class="story-card"><img src="${p.image}" alt="${p.name}" loading="lazy"><div class="story-body"><h3 class="story-person"><strong>${p.name}</strong>${affiliation?`<span class="story-aff">(${affiliation})</span>`:""}</h3><blockquote class="story-quote">“${L(p,"quote")}”</blockquote></div></article>`;
+    return `<article class="story-card"><img src="${p.image}" alt="${p.name}" loading="lazy"${p.focus?` style="object-position:${p.focus}"`:""}><div class="story-body"><h3 class="story-person"><strong>${p.name}</strong>${affiliation?`<span class="story-aff">(${affiliation})</span>`:""}</h3><blockquote class="story-quote">“${L(p,"quote")}”</blockquote></div></article>`;
   }).join("");
   return `<section class="blk"><h2>${L(D,"journey_section_title")}</h2><p class="lead">${L(D,"journey_intro")}</p>${feature}<div class="story-grid">${people}</div></section>`;
+}
+function featuredReport(){
+  const r=D.featured_report||{}, id=ytId(r.url); if(!id)return "";
+  return `<div class="report-feature"><div class="report-media"><iframe src="https://www.youtube-nocookie.com/embed/${id}" title="${L(r,"title")}" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="report-copy"><span class="report-label">${L(r,"label")}</span><h3>${L(r,"title")}</h3><div class="report-source">${L(r,"source")}</div><p>${L(r,"desc")}</p></div></div>`;
+}
+function authorProfile(){
+  const a=D.author_profile; if(!a)return "";
+  const roles=(lang==="vi"?a.roles_vi:a.roles_en)||[];
+  return `<section class="blk"><h2>${L(a,"label")}</h2><article class="author-card"><img src="${a.image}" alt="${a.name}" loading="lazy"><div class="author-copy"><div class="author-label">${L(a,"label")}</div><h3>${a.name}</h3><ul class="author-roles">${roles.map(r=>`<li>${r}</li>`).join("")}</ul><blockquote class="author-quote">“${L(a,"quote")}”</blockquote></div></article></section>`;
 }
 const PAGES=[
  ()=>`<div class="hero"><div class="en">${D.hero_en_label||"BORDER CLASSROOM"}</div><h1>${L(D,"hero_title")}</h1><p>${L(D,"hero_desc")}</p>
@@ -264,9 +281,11 @@ const PAGES=[
  ()=>head(lang==="vi"?"Kế hoạch hành động":"Action plan",lang==="vi"?"Lộ trình – Những việc sẽ làm":"Roadmap – what we will do")
    +`<section class="blk"><div class="tl">${D.roadmap.map(s=>`<div class="step"><div class="when">${L(s,"when")}</div><h3>${L(s,"h")}</h3><p>${L(s,"p")} ${tag(s.sclass||"plan",L(s,"s"))}</p></div>`).join("")}</div></section>`,
  ()=>head(lang==="vi"?"Lan tỏa qua những nguồn tin chính thống":"Reach through trusted sources",lang==="vi"?"Ghi nhận":"Recognition")
+   +`<section class="blk"><h2>${lang==="vi"?"Phóng sự nổi bật":"Featured report"}</h2>${featuredReport()}</section>`
    +`<section class="blk"><h2>${lang==="vi"?"Báo chí ghi nhận":"Press coverage"}</h2><div class="press">${(D.press||[]).map(a=>`<a class="pcard" href="${a.url}" target="_blank" rel="noopener">${a.image?`<img src="${a.image}" alt="" loading="lazy">`:""}<span class="psrc">${a.source}</span><span class="ptitle">${L(a,"title")}</span></a>`).join("")}</div></section>`,
  ()=>head(lang==="vi"?"Thông tin":"Information",lang==="vi"?"Liên hệ & đơn vị phối hợp":"Contact & partners")
    +`<div class="info">${D.contact.map(r=>`<div class="row"><b>${L(r,"k")}:</b> ${L(r,"v")}</div>`).join("")}</div>`
+   +authorProfile()
    +`<div class="note">${L(D,"note")}</div>`
 ];
 function checkClamp(){document.querySelectorAll(".vquote").forEach(q=>{const b=q.nextElementSibling;if(b&&b.classList.contains("rm")){b.style.display=(q.scrollHeight-q.clientHeight>2||q.classList.contains("open"))?"":"none";}});}
