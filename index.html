@@ -133,7 +133,7 @@
   .story-card img{width:100%;height:270px;object-fit:cover;object-position:center 24%;display:block}
   .story-body{padding:16px;display:flex;flex-direction:column;gap:9px;flex:1}
   .story-person{margin:0;color:var(--dark);font-size:15.5px;line-height:1.35}
-  .story-person strong{font-weight:800}.story-aff{font-weight:800;font-style:italic}
+  .story-person strong{font-weight:800}.story-aff{display:block;margin-top:4px;font-weight:800;font-style:italic}
   .story-quote{margin:0;color:#3d4d54;font-size:13.5px;font-style:italic;line-height:1.65}
   @media(max-width:900px){.story-grid{grid-template-columns:repeat(2,1fr)}.journey-feature{grid-template-columns:1fr}.journey-copy{padding:4px 2px}}
   @media(max-width:560px){.story-grid{grid-template-columns:1fr}.story-card img{height:320px}}
@@ -239,7 +239,7 @@ function journeySection(){
   const feature=videoId?`<div class="journey-feature"><div class="journey-video"><iframe src="https://www.youtube-nocookie.com/embed/${videoId}" title="${L(video,"title")}" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="journey-copy"><h3>${L(video,"title")}</h3><p>${L(video,"desc")}</p></div></div>`:"";
   const people=D.journey_people.map(p=>{
     const affiliation=L(p,"affiliation");
-    return `<article class="story-card"><img src="${p.image}" alt="${p.name}" loading="lazy"><div class="story-body"><h3 class="story-person"><strong>${p.name}</strong>${affiliation?` <span class="story-aff">(${affiliation})</span>`:""}</h3><blockquote class="story-quote">“${L(p,"quote")}”</blockquote></div></article>`;
+    return `<article class="story-card"><img src="${p.image}" alt="${p.name}" loading="lazy"><div class="story-body"><h3 class="story-person"><strong>${p.name}</strong>${affiliation?`<span class="story-aff">(${affiliation})</span>`:""}</h3><blockquote class="story-quote">“${L(p,"quote")}”</blockquote></div></article>`;
   }).join("");
   return `<section class="blk"><h2>${L(D,"journey_section_title")}</h2><p class="lead">${L(D,"journey_intro")}</p>${feature}<div class="story-grid">${people}</div></section>`;
 }
