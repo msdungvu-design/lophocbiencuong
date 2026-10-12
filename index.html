@@ -159,8 +159,14 @@
   .jm-lead{font-size:13.5px;color:var(--mut);margin:0 0 16px}
   .jm-x{position:absolute;top:8px;right:14px;background:none;border:0;font-size:28px;color:var(--mut);cursor:pointer;line-height:1}
   .jm form label{display:block;font-size:13px;font-weight:700;color:var(--dark);margin-bottom:12px}
-  .jm form input,.jm form textarea{display:block;width:100%;margin-top:4px;padding:9px 11px;border:1px solid var(--bd);border-radius:8px;font:inherit;font-weight:400;font-size:14px}
+  .jm form input[type="text"],.jm form input[type="tel"],.jm form input[type="email"]{display:block;width:100%;margin-top:4px;padding:9px 11px;border:1px solid var(--bd);border-radius:8px;font:inherit;font-weight:400;font-size:14px}
+  .jm-options{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:7px 12px;margin:6px 0 13px}
+  .jm-options label,.jm-consent{display:flex!important;align-items:flex-start;gap:7px;margin:0!important;font-size:12.5px!important;font-weight:500!important;line-height:1.35}
+  .jm-options input,.jm-consent input{width:auto;margin:2px 0 0;flex:0 0 auto;accent-color:var(--teal)}
+  .jm-group{font-size:13px;font-weight:700;color:var(--dark);margin:2px 0 5px}
+  .jm-consent{margin:4px 0 12px!important}
   .jm-submit{background:var(--dark);color:#fff;border:0;font:inherit;font-weight:700;padding:11px 18px;border-radius:9px;cursor:pointer;width:100%;margin-top:4px}
+  @media(max-width:520px){.jm-options{grid-template-columns:1fr}}
   .jm-mail{font-size:12.5px;color:var(--mut);margin-top:12px;text-align:center}.jm-mail a{color:var(--teal);font-weight:700}
   .jm-thanks{background:#e2f0e6;color:#1f6b39;border-radius:10px;padding:16px;font-size:14px;font-weight:600;text-align:center}
 </style>
@@ -181,17 +187,52 @@
     <button class="jm-x" onclick="closeJoin()" aria-label="Close">×</button>
     <h3>Đăng ký quan tâm đồng hành<br><span style="font-size:14px;color:#9A6B12">Register your interest</span></h3>
     <p class="jm-lead">Bạn muốn đồng hành cùng “Lớp học biên cương” (tình nguyện, giao lưu văn hóa tại điểm trạm)? Để lại thông tin, chúng tôi sẽ liên hệ khi chương trình đủ điều kiện triển khai theo quy định pháp luật.<br><em>Leave your details and we’ll contact you when the programme is ready to run under the applicable regulations.</em></p>
-    <div class="join-contact">
-  <p>Liên hệ tham gia / Contact to join:</p>
-  <a class="btn" href="mailto:ms.dungvu@gmail.com?subject=Tham%20gia%20L%E1%BB%9Bp%20h%E1%BB%8Dc%20bi%C3%AAn%20c%C6%B0%C6%A1ng">ms.dungvu@gmail.com</a>
-</div>
-    <div class="jm-mail">Hoặc email trực tiếp / Or email us: <a href="mailto:lophocbiencuong@gmail.com?subject=Volunteer%20interest%20-%20Border%20Classroom">lophocbiencuong@gmail.com</a></div>
-    <div id="jmThanks" class="jm-thanks" hidden>Cảm ơn bạn! Chúng tôi đã nhận thông tin và sẽ liên hệ lại.<br>Thank you — we’ve received your details and will be in touch.</div>
+    <form id="joinForm" onsubmit="return submitJoin(event)">
+      <label>1. Họ và tên / Full name<input type="text" name="fullName" required></label>
+      <label>2. Số điện thoại / Phone<input type="tel" name="phone" required></label>
+      <label>3. Email<input type="email" name="email" required></label>
+      <label>4. Nơi ở hiện tại / Current location<input type="text" name="location" required></label>
+      <div class="jm-group">5. Vị trí mong muốn / Preferred role</div>
+      <div class="jm-options">
+        <label><input type="checkbox" name="role" value="Giáo viên">Giáo viên</label>
+        <label><input type="checkbox" name="role" value="Trợ giảng">Trợ giảng</label>
+        <label><input type="checkbox" name="role" value="Tình nguyện viên">Tình nguyện viên</label>
+        <label><input type="checkbox" name="role" value="Chuyên gia/đối tác">Chuyên gia/đối tác</label>
+        <label><input type="checkbox" name="role" value="Tài trợ nguồn lực">Tài trợ nguồn lực</label>
+      </div>
+      <div class="jm-group">6. Hình thức / Participation format</div>
+      <div class="jm-options">
+        <label><input type="radio" name="format" value="Trực tiếp" required>Trực tiếp</label>
+        <label><input type="radio" name="format" value="Trực tuyến">Trực tuyến</label>
+        <label><input type="radio" name="format" value="Linh hoạt">Linh hoạt</label>
+      </div>
+      <label class="jm-consent"><input type="checkbox" name="consent" required>Tôi đồng ý cho dự án sử dụng thông tin trên để liên hệ.</label>
+      <button class="jm-submit" type="submit">Gửi thông tin · Submit</button>
+    </form>
+    <div class="jm-mail">Thông tin được gửi trực tiếp tới <a href="mailto:lophocbiencuong@gmail.com">lophocbiencuong@gmail.com</a></div>
   </div>
 </div>
 <script>
 function openJoin(){document.getElementById('joinModal').classList.add('on')}
 function closeJoin(){document.getElementById('joinModal').classList.remove('on')}
+function submitJoin(e){
+  e.preventDefault();
+  const f=e.target;
+  const roles=[...f.querySelectorAll('input[name="role"]:checked')].map(x=>x.value);
+  if(!roles.length){alert('Vui lòng chọn ít nhất một vị trí mong muốn.');return false}
+  const data=new FormData(f);
+  const body=[
+    'Họ và tên: '+data.get('fullName'),
+    'Số điện thoại: '+data.get('phone'),
+    'Email: '+data.get('email'),
+    'Nơi ở hiện tại: '+data.get('location'),
+    'Vị trí mong muốn: '+roles.join(', '),
+    'Hình thức: '+data.get('format'),
+    'Đã đồng ý sử dụng thông tin để liên hệ: Có'
+  ].join('\n');
+  window.location.href='mailto:lophocbiencuong@gmail.com?subject='+encodeURIComponent('Đăng ký đồng hành cùng Lớp học biên cương')+'&body='+encodeURIComponent(body);
+  return false;
+}
 
 </script>
 
