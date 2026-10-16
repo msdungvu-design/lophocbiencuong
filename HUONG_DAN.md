@@ -1,5 +1,29 @@
 # Hướng dẫn đưa website "Lớp học biên cương" lên mạng
 
+## Cấu hình đang sử dụng: Vercel
+
+- Website chính thức để đưa vào hồ sơ, mã QR và chia sẻ: **https://lophocbiencuong.vercel.app/**.
+- Repository: https://github.com/msdungvu-design/lophocbiencuong, nhánh `main`.
+- `index.html` khai báo cùng tên miền cho `canonical`, `og:url`, `og:image` và `twitter:image`.
+- Ảnh chia sẻ: **https://lophocbiencuong.vercel.app/og-image.jpg**, JPEG 1200 × 630 px. Ảnh sử dụng hình lớp học `home_hero.jpg` cùng màu xanh đậm – vàng hiện có của website.
+- Các thẻ chia sẻ nằm sẵn trong HTML, không cần chạy JavaScript để đọc.
+
+### Xác nhận sau khi triển khai
+
+1. Trong dự án Vercel liên kết với repository này, kiểm tra deployment của commit mới nhất trên `main` có trạng thái **Ready**, là deployment **Production**, và tên miền `lophocbiencuong.vercel.app` trỏ tới deployment đó. Nếu chưa có deployment tự động, dùng **Redeploy**. Đây là website tĩnh, không cần thêm bước build cho thay đổi metadata/ảnh.
+2. Mở https://lophocbiencuong.vercel.app/ và https://lophocbiencuong.vercel.app/og-image.jpg. Cả hai phải trả HTTP 200; đường dẫn ảnh phải hiển thị ảnh thực, không phải trang HTML/404. Ảnh phải có Content-Type `image/jpeg` và kích thước 1200 × 630 px.
+3. Xem **mã nguồn trang** (View Page Source), tìm `canonical`, `og:url`, `og:image`, `twitter:image`. Tất cả phải dùng `https://lophocbiencuong.vercel.app/`; không còn tên miền Netlify trong các thẻ này. `og:image:width`/`height` phải khớp với ảnh thực. Kiểm tra cả tab VI/EN và các tab nội dung để xác nhận giao diện hoạt động như trước.
+4. Với Facebook/Messenger, mở https://developers.facebook.com/tools/debug/, nhập URL chính thức rồi bấm **Debug**, sau đó **Scrape Again** để làm mới bản xem trước. Có thể cần đăng nhập Facebook. Xác nhận ảnh, tên dự án và mô tả xuất hiện đúng.
+5. Thử dán URL chính thức vào một tin nhắn mới trên Zalo/Messenger. Các nền tảng giữ cache riêng; tin nhắn cũ có thể vẫn hiển thị ảnh cũ. Nếu ảnh đã truy cập công khai được nhưng bản xem trước chưa đổi, chờ cache cập nhật rồi thử lại. Nếu thay ảnh trong tương lai, có thể dùng tên tệp ảnh có phiên bản mới và cập nhật đồng thời cả `og:image`/`twitter:image` để tránh cache ảnh cũ.
+
+### Lưu ý về hướng dẫn cũ bên dưới
+
+Các phần Netlify/Decap CMS dưới đây là phương án triển khai trước đây, không phải cấu hình Vercel hiện tại. Repository hiện chưa có thư mục `admin/`, `images/` hoặc các tệp cấu hình CMS được mô tả trong phương án cũ. Không dùng tên miền Netlify bên dưới làm đường dẫn chính trong hồ sơ; không mặc định rằng `/admin/` đang hoạt động.
+
+---
+
+## Tài liệu triển khai Netlify trước đây (tham khảo)
+
 Thư mục này (`site`) là toàn bộ website. Cấu trúc:
 
 ```
