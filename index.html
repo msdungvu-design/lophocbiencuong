@@ -322,7 +322,6 @@ const PAGES=[
  ()=>head(lang==="vi"?"Kế hoạch hành động":"Action plan",lang==="vi"?"Lộ trình – Những việc sẽ làm":"Roadmap – what we will do")
    +`<section class="blk"><div class="tl">${D.roadmap.map(s=>`<div class="step"><div class="when">${L(s,"when")}</div><h3>${L(s,"h")}</h3><p>${L(s,"p")} ${tag(s.sclass||"plan",L(s,"s"))}</p></div>`).join("")}</div></section>`,
  ()=>head(lang==="vi"?"Lan tỏa qua những nguồn tin chính thống":"Reach through trusted sources",lang==="vi"?"Ghi nhận":"Recognition")
-   +`<section class="blk"><h2>${lang==="vi"?"Phóng sự nổi bật":"Featured report"}</h2>${featuredReport()}</section>`
    +`<section class="blk"><h2>${lang==="vi"?"Báo chí ghi nhận":"Press coverage"}</h2><div class="press">${(D.press||[]).map(a=>`<a class="pcard" href="${a.url}" target="_blank" rel="noopener">${a.image?`<img src="${a.image}" alt="" loading="lazy">`:""}<span class="psrc">${a.source}</span><span class="ptitle">${L(a,"title")}</span></a>`).join("")}</div></section>`,
  ()=>head(lang==="vi"?"Thông tin":"Information",lang==="vi"?"Liên hệ & đơn vị phối hợp":"Contact & partners")
    +`<div class="info">${D.contact.map(r=>`<div class="row"><b>${L(r,"k")}:</b> ${L(r,"v")}</div>`).join("")}</div>`
